@@ -1,0 +1,22 @@
+{
+  "annal:view_fields": [
+    {
+      "annal:field_placement": "small:0,12;medium:0,6", 
+      "annal:field_id": "Entity_id"
+    }, 
+    {
+      "annal:field_placement": "small:0,12", 
+      "annal:field_id": "command_seq_field"
+    }
+  ], 
+  "rdfs:label": "View Plan", 
+  "rdfs:comment": "View of Plan entity", 
+  "annal:open_view": true, 
+  "annal:type_id": "_list", 
+  "annal:id": "Plan_view", 
+  "@id": "./", 
+  "@type": [
+    "annal:View"
+  ], 
+  "annal:type": "annal:View"
+}

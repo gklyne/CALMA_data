@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "sample_rate", 
+  "annal:property_uri": "vamp:sample_rate", 
+  "annal:type_id": "_field", 
+  "annal:placeholder": "(sample_rate_field)", 
+  "rdfs:comment": "Field sample_rate_field (vamp:sample_rate, http://www.w3.org/1999/02/22-rdf-syntax-ns#type)", 
+  "@id": "./", 
+  "annal:field_placement": "small:0,12", 
+  "annal:default_value": "", 
+  "annal:field_value_type": "annal:Text", 
+  "annal:field_render_type": "Text", 
+  "annal:id": "sample_rate_field", 
+  "@type": [
+    "annal:Field"
+  ], 
+  "annal:type": "annal:Field"
+}

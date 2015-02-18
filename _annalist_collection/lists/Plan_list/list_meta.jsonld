@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "List Plan", 
+  "rdfs:comment": "List of Plan entities", 
+  "annal:type_id": "_list", 
+  "annal:list_entity_selector": "'prov:Plan' in [@type]", 
+  "annal:display_type": "List", 
+  "@id": "./", 
+  "annal:id": "Plan_list", 
+  "annal:default_type": "Plan", 
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,3", 
+      "annal:field_id": "Entity_id"
+    }, 
+    {
+      "annal:field_placement": "small:3,9", 
+      "annal:field_id": "Entity_label"
+    }
+  ], 
+  "annal:default_view": "Plan_view", 
+  "@type": [
+    "annal:List"
+  ], 
+  "annal:type": "annal:List"
+}

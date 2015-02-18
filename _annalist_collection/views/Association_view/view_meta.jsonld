@@ -1,0 +1,34 @@
+{
+  "annal:view_fields": [
+    {
+      "annal:field_placement": "small:0,12;medium:0,6", 
+      "annal:field_id": "Entity_id"
+    }, 
+    {
+      "annal:field_placement": "small:0,12", 
+      "annal:field_id": "agent_field"
+    }, 
+    {
+      "annal:field_placement": "small:0,12", 
+      "annal:field_id": "hadRole_field"
+    }, 
+    {
+      "annal:field_placement": "small:0,12", 
+      "annal:field_id": "qualifiedAssociation_field"
+    }, 
+    {
+      "annal:field_placement": "small:0,12", 
+      "annal:field_id": "hadPlan_field"
+    }
+  ], 
+  "rdfs:label": "View Association", 
+  "rdfs:comment": "View of Association entity", 
+  "annal:open_view": true, 
+  "annal:type_id": "_list", 
+  "annal:id": "Association_view", 
+  "@id": "./", 
+  "@type": [
+    "annal:View"
+  ], 
+  "annal:type": "annal:View"
+}

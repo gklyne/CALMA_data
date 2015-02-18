@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "agent", 
+  "annal:property_uri": "prov:agent", 
+  "annal:type_id": "_field", 
+  "annal:placeholder": "(agent_field)", 
+  "rdfs:comment": "Field agent_field (prov:agent, http://www.w3.org/ns/prov#qualifiedAssociation)", 
+  "@id": "./", 
+  "annal:field_placement": "small:0,12", 
+  "annal:default_value": "", 
+  "annal:field_value_type": "annal:Text", 
+  "annal:field_render_type": "Text", 
+  "annal:id": "agent_field", 
+  "@type": [
+    "annal:Field"
+  ], 
+  "annal:type": "annal:Field"
+}

@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "qualifiedAssociation", 
+  "annal:property_uri": "prov:qualifiedAssociation", 
+  "annal:type_id": "_field", 
+  "annal:placeholder": "(qualifiedAssociation_field)", 
+  "rdfs:comment": "Field qualifiedAssociation_field (prov:qualifiedAssociation, http://www.w3.org/ns/prov#qualifiedAssociation)", 
+  "@id": "./", 
+  "annal:field_placement": "small:0,12", 
+  "annal:default_value": "", 
+  "annal:field_value_type": "annal:Text", 
+  "annal:field_render_type": "Text", 
+  "annal:id": "qualifiedAssociation_field", 
+  "@type": [
+    "annal:Field"
+  ], 
+  "annal:type": "annal:Field"
+}

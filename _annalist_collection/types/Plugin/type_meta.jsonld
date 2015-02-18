@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Type vamp:Plugin", 
+  "rdfs:comment": "Type vamp:Plugin (http://purl.org/ontology/vamp/Plugin)", 
+  "annal:uri": "vamp:Plugin", 
+  "annal:type_list": "Plugin_list", 
+  "annal:type_id": "_type", 
+  "annal:id": "Plugin", 
+  "@id": "./", 
+  "@type": [
+    "annal:Type"
+  ], 
+  "annal:type": "annal:Type", 
+  "annal:type_view": "Plugin_view"
+}

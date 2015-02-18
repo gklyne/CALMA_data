@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "CALMA data from Sonic Annotator",
+  "rdfs:comment": "",
+  "annal:type_id": "_collection",
+  "annal:url": "/annalist/c/CALMA_data/",
+  "annal:default_list": "Activity_list",
+  "annal:id": "CALMA_data",
+  "@id": "../",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:type": "annal:Collection"
+}

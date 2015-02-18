@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Type prov:SoftwareAgent", 
+  "rdfs:comment": "Type prov:SoftwareAgent (http://www.w3.org/ns/prov#SoftwareAgent)", 
+  "annal:uri": "prov:SoftwareAgent", 
+  "annal:type_list": "SoftwareAgent_list", 
+  "annal:type_id": "_type", 
+  "annal:id": "SoftwareAgent", 
+  "@id": "./", 
+  "@type": [
+    "annal:Type"
+  ], 
+  "annal:type": "annal:Type", 
+  "annal:type_view": "SoftwareAgent_view"
+}

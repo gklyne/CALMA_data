@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Type prov:Plan", 
+  "rdfs:comment": "Type prov:Plan (http://www.w3.org/ns/prov#Plan)", 
+  "annal:uri": "prov:Plan", 
+  "annal:type_list": "Plan_list", 
+  "annal:type_id": "_type", 
+  "annal:id": "Plan", 
+  "@id": "./", 
+  "@type": [
+    "annal:Type"
+  ], 
+  "annal:type": "annal:Type", 
+  "annal:type_view": "Plan_view"
+}

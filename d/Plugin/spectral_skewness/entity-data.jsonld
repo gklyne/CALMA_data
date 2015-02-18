@@ -1,0 +1,12 @@
+{
+  "rdfs:label": "Resource ns1:spectral_skewness", 
+  "rdfs:comment": "Resource ns1:spectral_skewness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_skewness)", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:spectral_skewness", 
+  "annal:id": "spectral_skewness", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

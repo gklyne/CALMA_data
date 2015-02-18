@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Type event:Event", 
+  "rdfs:comment": "Type event:Event (http://purl.org/NET/c4dm/event.owl#Event)", 
+  "annal:uri": "event:Event", 
+  "annal:type_list": "Event_list", 
+  "annal:type_id": "_type", 
+  "annal:id": "Event", 
+  "@id": "./", 
+  "@type": [
+    "annal:Type"
+  ], 
+  "annal:type": "annal:Type", 
+  "annal:type_view": "Event_view"
+}

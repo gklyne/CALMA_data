@@ -1,0 +1,25 @@
+{
+  "rdfs:label": "List Transform", 
+  "rdfs:comment": "List of Transform entities", 
+  "annal:type_id": "_list", 
+  "annal:list_entity_selector": "'vamp:Transform' in [@type]", 
+  "annal:display_type": "List", 
+  "@id": "./", 
+  "annal:id": "Transform_list", 
+  "annal:default_type": "Transform", 
+  "annal:list_fields": [
+    {
+      "annal:field_placement": "small:0,3", 
+      "annal:field_id": "Entity_id"
+    }, 
+    {
+      "annal:field_placement": "small:3,9", 
+      "annal:field_id": "Entity_label"
+    }
+  ], 
+  "annal:default_view": "Transform_view", 
+  "@type": [
+    "annal:List"
+  ], 
+  "annal:type": "annal:List"
+}

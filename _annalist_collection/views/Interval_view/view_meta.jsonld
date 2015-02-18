@@ -1,0 +1,26 @@
+{
+  "annal:view_fields": [
+    {
+      "annal:field_placement": "small:0,12;medium:0,6", 
+      "annal:field_id": "Entity_id"
+    }, 
+    {
+      "annal:field_placement": "small:0,12", 
+      "annal:field_id": "feature_blob_field"
+    }, 
+    {
+      "annal:field_placement": "small:0,12", 
+      "annal:field_id": "onTimeLine_field"
+    }
+  ], 
+  "rdfs:label": "View Interval", 
+  "rdfs:comment": "View of Interval entity", 
+  "annal:open_view": true, 
+  "annal:type_id": "_list", 
+  "annal:id": "Interval_view", 
+  "@id": "./", 
+  "@type": [
+    "annal:View"
+  ], 
+  "annal:type": "annal:View"
+}

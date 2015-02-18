@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Type vamp:Transform", 
+  "rdfs:comment": "Type vamp:Transform (http://purl.org/ontology/vamp/Transform)", 
+  "annal:uri": "vamp:Transform", 
+  "annal:type_list": "Transform_list", 
+  "annal:type_id": "_type", 
+  "annal:id": "Transform", 
+  "@id": "./", 
+  "@type": [
+    "annal:Type"
+  ], 
+  "annal:type": "annal:Type", 
+  "annal:type_view": "Transform_view"
+}

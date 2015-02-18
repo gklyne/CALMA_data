@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "command", 
+  "annal:property_uri": "calma:command", 
+  "annal:type_id": "_field", 
+  "annal:placeholder": "(command_field)", 
+  "rdfs:comment": "Field command_field (calma:command, http://www.w3.org/ns/prov#wasAssociatedWith)", 
+  "@id": "./", 
+  "annal:field_placement": "small:0,12", 
+  "annal:default_value": "", 
+  "annal:field_value_type": "annal:Text", 
+  "annal:field_render_type": "Text", 
+  "annal:id": "command_field", 
+  "@type": [
+    "annal:Field"
+  ], 
+  "annal:type": "annal:Field"
+}
