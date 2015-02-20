@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:tristimulus_1", 
+  "rdfs:comment": "Resource ns1:tristimulus_1 (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tristimulus_1), id vamp_libxtract_tristimulus_1", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tristimulus_1", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:tristimulus_1", 
+  "annal:id": "vamp_libxtract_tristimulus_1", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

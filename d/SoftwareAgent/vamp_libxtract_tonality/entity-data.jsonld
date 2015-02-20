@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:tonality", 
+  "rdfs:comment": "Resource ns1:tonality (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality), id vamp_libxtract_tonality", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:tonality", 
+  "annal:id": "vamp_libxtract_tonality", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

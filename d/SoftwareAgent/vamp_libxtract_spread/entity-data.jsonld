@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:spread", 
+  "rdfs:comment": "Resource ns1:spread (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread), id vamp_libxtract_spread", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:spread", 
+  "annal:id": "vamp_libxtract_spread", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

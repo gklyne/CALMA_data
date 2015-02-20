@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:sharpness", 
+  "rdfs:comment": "Resource ns1:sharpness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness), id vamp_libxtract_sharpness", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:sharpness", 
+  "annal:id": "vamp_libxtract_sharpness", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

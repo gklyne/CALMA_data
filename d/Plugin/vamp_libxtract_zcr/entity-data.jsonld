@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:zcr", 
+  "rdfs:comment": "Resource ns1:zcr (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#zcr), id vamp_libxtract_zcr", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#zcr", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:zcr", 
+  "annal:id": "vamp_libxtract_zcr", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

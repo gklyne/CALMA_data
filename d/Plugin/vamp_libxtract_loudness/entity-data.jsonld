@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:loudness", 
+  "rdfs:comment": "Resource ns1:loudness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#loudness), id vamp_libxtract_loudness", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#loudness", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:loudness", 
+  "annal:id": "vamp_libxtract_loudness", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

@@ -1,0 +1,16 @@
+{
+  "rdfs:label": "Resource track11:blob_event", 
+  "rdfs:comment": "Resource track11:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#blob_event), id abc77caebe8e_blob_event", 
+  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#activity_0", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#blob_event", 
+  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#transform_1_odd_even_ratio", 
+  "annal:type_id": "Event", 
+  "mo:time": "ub12bL30C13", 
+  "annal:uri": "track11:blob_event", 
+  "annal:id": "abc77caebe8e_blob_event", 
+  "@id": "./", 
+  "@type": [
+    "event:Event"
+  ], 
+  "annal:type": "event:Event"
+}

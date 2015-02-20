@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:smoothness_output_smoothness", 
+  "rdfs:comment": "Resource ns1:smoothness_output_smoothness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#smoothness_output_smoothness), id vamp_lib___ss_output_smoothness", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#smoothness_output_smoothness", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:smoothness_output_smoothness", 
+  "annal:id": "vamp_lib___ss_output_smoothness", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

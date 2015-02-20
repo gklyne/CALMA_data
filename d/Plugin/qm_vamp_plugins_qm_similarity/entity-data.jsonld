@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns5:qm-similarity", 
+  "rdfs:comment": "Resource ns5:qm-similarity (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity), id qm_vamp_plugins_qm_similarity", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns5:qm-similarity", 
+  "annal:id": "qm_vamp_plugins_qm_similarity", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

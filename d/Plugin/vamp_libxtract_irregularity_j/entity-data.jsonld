@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:irregularity_j", 
+  "rdfs:comment": "Resource ns1:irregularity_j (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_j), id vamp_libxtract_irregularity_j", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_j", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:irregularity_j", 
+  "annal:id": "vamp_libxtract_irregularity_j", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

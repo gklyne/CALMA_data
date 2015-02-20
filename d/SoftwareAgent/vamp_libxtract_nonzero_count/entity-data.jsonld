@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:nonzero_count", 
+  "rdfs:comment": "Resource ns1:nonzero_count (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#nonzero_count), id vamp_libxtract_nonzero_count", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#nonzero_count", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:nonzero_count", 
+  "annal:id": "vamp_libxtract_nonzero_count", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

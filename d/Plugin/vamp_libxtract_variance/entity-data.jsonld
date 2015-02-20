@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:variance", 
+  "rdfs:comment": "Resource ns1:variance (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#variance), id vamp_libxtract_variance", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#variance", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:variance", 
+  "annal:id": "vamp_libxtract_variance", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

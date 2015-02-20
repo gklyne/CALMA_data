@@ -1,0 +1,17 @@
+{
+  "rdfs:label": "Resource track41:association_1", 
+  "rdfs:comment": "Resource track41:association_1 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_20816439-bf66-4a62-9b9a-bd611994cf04#association_1), id bd611994cf04_association_1", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_20816439-bf66-4a62-9b9a-bd611994cf04#association_1", 
+  "annal:type_id": "Association", 
+  "prov:hadRole": "http://calma.linkedmusic.org/roles/feature_extraction_host", 
+  "prov:hadPlan": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_20816439-bf66-4a62-9b9a-bd611994cf04#plan_0", 
+  "prov:agent": "http://calma.linkedmusic.org/software_agents/sonic_annotator", 
+  "annal:uri": "track41:association_1", 
+  "prov:qualifiedAssociation": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_20816439-bf66-4a62-9b9a-bd611994cf04#activity_0", 
+  "annal:id": "bd611994cf04_association_1", 
+  "@id": "./", 
+  "@type": [
+    "prov:Association"
+  ], 
+  "annal:type": "prov:Association"
+}

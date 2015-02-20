@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns5:qm-similarity_output_beatspectrum", 
+  "rdfs:comment": "Resource ns5:qm-similarity_output_beatspectrum (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity_output_beatspectrum), id qm_vamp_____output_beatspectrum", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity_output_beatspectrum", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns5:qm-similarity_output_beatspectrum", 
+  "annal:id": "qm_vamp_____output_beatspectrum", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

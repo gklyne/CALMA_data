@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:spectral_centroid", 
+  "rdfs:comment": "Resource ns1:spectral_centroid (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid), id vamp_libxtract_spectral_centroid", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:spectral_centroid", 
+  "annal:id": "vamp_libxtract_spectral_centroid", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

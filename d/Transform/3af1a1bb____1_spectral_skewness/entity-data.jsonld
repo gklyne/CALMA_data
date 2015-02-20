@@ -1,0 +1,18 @@
+{
+  "@id": "./", 
+  "rdfs:label": "Resource track27:transform_1_spectral_skewness", 
+  "rdfs:comment": "Resource track27:transform_1_spectral_skewness (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_019e4657-7d15-42e7-b4c9-3af1a1bb585d#transform_1_spectral_skewness), id 3af1a1bb____1_spectral_skewness", 
+  "vamp:block_size": "1024", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_019e4657-7d15-42e7-b4c9-3af1a1bb585d#transform_1_spectral_skewness", 
+  "annal:type_id": "Transform", 
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_skewness_output_spectral_skewness", 
+  "annal:uri": "track27:transform_1_spectral_skewness", 
+  "vamp:step_size": "1024", 
+  "annal:id": "3af1a1bb____1_spectral_skewness", 
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_skewness", 
+  "@type": [
+    "vamp:Transform"
+  ], 
+  "annal:type": "vamp:Transform", 
+  "vamp:sample_rate": "44100.0"
+}

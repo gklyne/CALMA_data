@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:crest", 
+  "rdfs:comment": "Resource ns1:crest (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#crest), id vamp_libxtract_crest", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#crest", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:crest", 
+  "annal:id": "vamp_libxtract_crest", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

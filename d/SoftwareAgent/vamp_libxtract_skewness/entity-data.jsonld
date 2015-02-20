@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:skewness", 
+  "rdfs:comment": "Resource ns1:skewness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness), id vamp_libxtract_skewness", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:skewness", 
+  "annal:id": "vamp_libxtract_skewness", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

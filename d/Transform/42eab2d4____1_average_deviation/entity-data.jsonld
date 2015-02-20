@@ -1,0 +1,18 @@
+{
+  "@id": "./", 
+  "rdfs:label": "Resource track19:transform_1_average_deviation", 
+  "rdfs:comment": "Resource track19:transform_1_average_deviation (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_823483db-9393-4499-b211-42eab2d41d2d#transform_1_average_deviation), id 42eab2d4____1_average_deviation", 
+  "vamp:block_size": "1024", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_823483db-9393-4499-b211-42eab2d41d2d#transform_1_average_deviation", 
+  "annal:type_id": "Transform", 
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#average_deviation_output_average_deviation", 
+  "annal:uri": "track19:transform_1_average_deviation", 
+  "vamp:step_size": "1024", 
+  "annal:id": "42eab2d4____1_average_deviation", 
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#average_deviation", 
+  "@type": [
+    "vamp:Transform"
+  ], 
+  "annal:type": "vamp:Transform", 
+  "vamp:sample_rate": "44100.0"
+}

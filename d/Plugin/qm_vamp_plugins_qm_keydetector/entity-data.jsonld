@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns5:qm-keydetector", 
+  "rdfs:comment": "Resource ns5:qm-keydetector (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-keydetector), id qm_vamp_plugins_qm_keydetector", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-keydetector", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns5:qm-keydetector", 
+  "annal:id": "qm_vamp_plugins_qm_keydetector", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

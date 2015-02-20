@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns5:qm-segmenter_output_segmentation", 
+  "rdfs:comment": "Resource ns5:qm-segmenter_output_segmentation (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter_output_segmentation), id qm_vamp_____output_segmentation", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter_output_segmentation", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns5:qm-segmenter_output_segmentation", 
+  "annal:id": "qm_vamp_____output_segmentation", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:highest_value_output_highest_value", 
+  "rdfs:comment": "Resource ns1:highest_value_output_highest_value (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value_output_highest_value), id vamp_lib___output_highest_value", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value_output_highest_value", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:highest_value_output_highest_value", 
+  "annal:id": "vamp_lib___output_highest_value", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

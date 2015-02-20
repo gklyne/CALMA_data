@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:tristimulus_1_output_tristimulus_1", 
+  "rdfs:comment": "Resource ns1:tristimulus_1_output_tristimulus_1 (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tristimulus_1_output_tristimulus_1), id vamp_lib___output_tristimulus_1", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tristimulus_1_output_tristimulus_1", 
+  "annal:type_id": "PluginOutput", 
+  "annal:uri": "ns1:tristimulus_1_output_tristimulus_1", 
+  "annal:id": "vamp_lib___output_tristimulus_1", 
+  "@id": "./", 
+  "@type": [
+    "vamp:PluginOutput"
+  ], 
+  "annal:type": "vamp:PluginOutput"
+}

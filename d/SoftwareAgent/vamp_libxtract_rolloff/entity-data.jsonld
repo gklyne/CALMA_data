@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:rolloff", 
+  "rdfs:comment": "Resource ns1:rolloff (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#rolloff), id vamp_libxtract_rolloff", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#rolloff", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:rolloff", 
+  "annal:id": "vamp_libxtract_rolloff", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:mean_output_mean", 
+  "rdfs:comment": "Resource ns1:mean_output_mean (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#mean_output_mean), id vamp_libxtract_mean_output_mean", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#mean_output_mean", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:mean_output_mean", 
+  "annal:id": "vamp_libxtract_mean_output_mean", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

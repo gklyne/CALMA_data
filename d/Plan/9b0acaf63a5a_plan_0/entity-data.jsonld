@@ -1,0 +1,14 @@
+{
+  "rdfs:label": "Resource track38:plan_0", 
+  "rdfs:comment": "Resource track38:plan_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#plan_0), id 9b0acaf63a5a_plan_0", 
+  "annal:uri": "track38:plan_0", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#plan_0", 
+  "annal:type_id": "Plan", 
+  "annal:id": "9b0acaf63a5a_plan_0", 
+  "@id": "./", 
+  "@type": [
+    "prov:Plan"
+  ], 
+  "calma:command_seq": "ub39bL37C23", 
+  "annal:type": "prov:Plan"
+}

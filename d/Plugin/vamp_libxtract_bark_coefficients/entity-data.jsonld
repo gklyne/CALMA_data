@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:bark_coefficients", 
+  "rdfs:comment": "Resource ns1:bark_coefficients (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#bark_coefficients), id vamp_libxtract_bark_coefficients", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#bark_coefficients", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:bark_coefficients", 
+  "annal:id": "vamp_libxtract_bark_coefficients", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

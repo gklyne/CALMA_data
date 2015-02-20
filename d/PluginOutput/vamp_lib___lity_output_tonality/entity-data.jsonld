@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:tonality_output_tonality", 
+  "rdfs:comment": "Resource ns1:tonality_output_tonality (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality_output_tonality), id vamp_lib___lity_output_tonality", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality_output_tonality", 
+  "annal:type_id": "PluginOutput", 
+  "annal:uri": "ns1:tonality_output_tonality", 
+  "annal:id": "vamp_lib___lity_output_tonality", 
+  "@id": "./", 
+  "@type": [
+    "vamp:PluginOutput"
+  ], 
+  "annal:type": "vamp:PluginOutput"
+}

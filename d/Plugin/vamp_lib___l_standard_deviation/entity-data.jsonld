@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:spectral_standard_deviation", 
+  "rdfs:comment": "Resource ns1:spectral_standard_deviation (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_standard_deviation), id vamp_lib___l_standard_deviation", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_standard_deviation", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:spectral_standard_deviation", 
+  "annal:id": "vamp_lib___l_standard_deviation", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

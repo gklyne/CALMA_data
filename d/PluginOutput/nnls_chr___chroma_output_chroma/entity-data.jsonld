@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns4:nnls-chroma_output_chroma", 
+  "rdfs:comment": "Resource ns4:nnls-chroma_output_chroma (http://vamp-plugins.org/rdf/plugins/nnls-chroma#nnls-chroma_output_chroma), id nnls_chr___chroma_output_chroma", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#nnls-chroma_output_chroma", 
+  "annal:type_id": "PluginOutput", 
+  "annal:uri": "ns4:nnls-chroma_output_chroma", 
+  "annal:id": "nnls_chr___chroma_output_chroma", 
+  "@id": "./", 
+  "@type": [
+    "vamp:PluginOutput"
+  ], 
+  "annal:type": "vamp:PluginOutput"
+}

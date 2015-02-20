@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:sharpness_output_sharpness", 
+  "rdfs:comment": "Resource ns1:sharpness_output_sharpness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness_output_sharpness), id vamp_lib___ess_output_sharpness", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness_output_sharpness", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:sharpness_output_sharpness", 
+  "annal:id": "vamp_lib___ess_output_sharpness", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:odd_even_ratio", 
+  "rdfs:comment": "Resource ns1:odd_even_ratio (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#odd_even_ratio), id vamp_libxtract_odd_even_ratio", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#odd_even_ratio", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:odd_even_ratio", 
+  "annal:id": "vamp_libxtract_odd_even_ratio", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns3:segmentino", 
+  "rdfs:comment": "Resource ns3:segmentino (http://vamp-plugins.org/rdf/plugins/segmentino#segmentino), id segmentino_segmentino", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/segmentino#segmentino", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns3:segmentino", 
+  "annal:id": "segmentino_segmentino", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

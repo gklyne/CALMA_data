@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns5:qm-mfcc", 
+  "rdfs:comment": "Resource ns5:qm-mfcc (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc), id qm_vamp_plugins_qm_mfcc", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns5:qm-mfcc", 
+  "annal:id": "qm_vamp_plugins_qm_mfcc", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

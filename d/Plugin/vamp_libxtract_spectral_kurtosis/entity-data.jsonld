@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:spectral_kurtosis", 
+  "rdfs:comment": "Resource ns1:spectral_kurtosis (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis), id vamp_libxtract_spectral_kurtosis", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:spectral_kurtosis", 
+  "annal:id": "vamp_libxtract_spectral_kurtosis", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}

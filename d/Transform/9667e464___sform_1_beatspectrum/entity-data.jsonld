@@ -1,0 +1,19 @@
+{
+  "@id": "./", 
+  "rdfs:label": "Resource track4:transform_1_beatspectrum", 
+  "rdfs:comment": "Resource track4:transform_1_beatspectrum (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_fcc228df-dbba-4699-956d-9667e4645470#transform_1_beatspectrum), id 9667e464___sform_1_beatspectrum", 
+  "vamp:block_size": "4096", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_fcc228df-dbba-4699-956d-9667e4645470#transform_1_beatspectrum", 
+  "annal:type_id": "Transform", 
+  "vamp:parameter_binding": "ub5bL45C28", 
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity_output_beatspectrum", 
+  "annal:uri": "track4:transform_1_beatspectrum", 
+  "vamp:step_size": "2048", 
+  "annal:id": "9667e464___sform_1_beatspectrum", 
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity", 
+  "@type": [
+    "vamp:Transform"
+  ], 
+  "annal:type": "vamp:Transform", 
+  "vamp:sample_rate": "44100.0"
+}

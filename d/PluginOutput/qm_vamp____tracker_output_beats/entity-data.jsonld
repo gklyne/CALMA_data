@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns5:qm-tempotracker_output_beats", 
+  "rdfs:comment": "Resource ns5:qm-tempotracker_output_beats (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_beats), id qm_vamp____tracker_output_beats", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_beats", 
+  "annal:type_id": "PluginOutput", 
+  "annal:uri": "ns5:qm-tempotracker_output_beats", 
+  "annal:id": "qm_vamp____tracker_output_beats", 
+  "@id": "./", 
+  "@type": [
+    "vamp:PluginOutput"
+  ], 
+  "annal:type": "vamp:PluginOutput"
+}

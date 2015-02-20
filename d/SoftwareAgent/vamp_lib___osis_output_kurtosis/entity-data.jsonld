@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:kurtosis_output_kurtosis", 
+  "rdfs:comment": "Resource ns1:kurtosis_output_kurtosis (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#kurtosis_output_kurtosis), id vamp_lib___osis_output_kurtosis", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#kurtosis_output_kurtosis", 
+  "annal:type_id": "SoftwareAgent", 
+  "annal:uri": "ns1:kurtosis_output_kurtosis", 
+  "annal:id": "vamp_lib___osis_output_kurtosis", 
+  "@id": "./", 
+  "@type": [
+    "prov:SoftwareAgent"
+  ], 
+  "annal:type": "prov:SoftwareAgent"
+}

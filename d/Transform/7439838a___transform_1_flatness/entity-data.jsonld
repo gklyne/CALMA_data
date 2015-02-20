@@ -1,0 +1,18 @@
+{
+  "@id": "./", 
+  "rdfs:label": "Resource track35:transform_1_flatness", 
+  "rdfs:comment": "Resource track35:transform_1_flatness (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_a8087175-7d18-4ae8-82bc-7439838aae27#transform_1_flatness), id 7439838a___transform_1_flatness", 
+  "vamp:block_size": "1024", 
+  "vamp:sample_rate": "44100.0", 
+  "annal:type_id": "Transform", 
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness_output_flatness", 
+  "annal:uri": "track35:transform_1_flatness", 
+  "vamp:step_size": "1024", 
+  "annal:id": "7439838a___transform_1_flatness", 
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness", 
+  "@type": [
+    "vamp:Transform"
+  ], 
+  "annal:type": "vamp:Transform", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_a8087175-7d18-4ae8-82bc-7439838aae27#transform_1_flatness"
+}

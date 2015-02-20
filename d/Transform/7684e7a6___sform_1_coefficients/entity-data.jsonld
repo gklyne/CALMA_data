@@ -1,0 +1,19 @@
+{
+  "@id": "./", 
+  "rdfs:label": "Resource track25:transform_1_coefficients", 
+  "rdfs:comment": "Resource track25:transform_1_coefficients (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_fea0f77f-458f-4c91-bcc2-7684e7a66e40#transform_1_coefficients), id 7684e7a6___sform_1_coefficients", 
+  "vamp:block_size": "2048", 
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_fea0f77f-458f-4c91-bcc2-7684e7a66e40#transform_1_coefficients", 
+  "annal:type_id": "Transform", 
+  "vamp:parameter_binding": "ub26bL45C28", 
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc_output_coefficients", 
+  "annal:uri": "track25:transform_1_coefficients", 
+  "vamp:step_size": "1024", 
+  "annal:id": "7684e7a6___sform_1_coefficients", 
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc", 
+  "@type": [
+    "vamp:Transform"
+  ], 
+  "annal:type": "vamp:Transform", 
+  "vamp:sample_rate": "44100.0"
+}

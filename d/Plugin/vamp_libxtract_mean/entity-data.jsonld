@@ -1,0 +1,13 @@
+{
+  "rdfs:label": "Resource ns1:mean", 
+  "rdfs:comment": "Resource ns1:mean (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#mean), id vamp_libxtract_mean", 
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#mean", 
+  "annal:type_id": "Plugin", 
+  "annal:uri": "ns1:mean", 
+  "annal:id": "vamp_libxtract_mean", 
+  "@id": "./", 
+  "@type": [
+    "vamp:Plugin"
+  ], 
+  "annal:type": "vamp:Plugin"
+}
