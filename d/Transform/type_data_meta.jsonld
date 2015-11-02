@@ -1,6 +1,7 @@
 {
   "annal:type_id": "_entitytypedata",
-  "annal:id": "Activity",
+  "annal:url": "/annalist/c/CALMA_data/d/Transform/",
+  "annal:id": "Transform",
   "@id": "./",
   "@type": [
     "annal:Type_Data"

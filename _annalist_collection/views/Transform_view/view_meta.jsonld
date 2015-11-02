@@ -1,58 +1,71 @@
 {
   "annal:view_fields": [
     {
-      "annal:field_placement": "small:0,12;medium:0,6", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:0,6",
       "annal:field_id": "Entity_id"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12;medium:0,6", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12;medium:0,6",
       "annal:field_id": "RDF_type"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "RDF_link"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "Entity_label"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "Entity_comment"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "block_size_field"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "output_field"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "plugin_field"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "sample_rate_field"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "step_size_field"
-    }, 
+    },
     {
-      "annal:field_placement": "small:0,12", 
+      "annal:property_uri": "",
+      "annal:field_placement": "small:0,12",
       "annal:field_id": "parameter_binding_field"
     }
-  ], 
-  "rdfs:label": "View Transform", 
-  "rdfs:comment": "View of Transform entity", 
-  "annal:open_view": true, 
-  "annal:type_id": "_list", 
-  "annal:id": "Transform_view", 
-  "@id": "./", 
+  ],
+  "rdfs:label": "View Transform",
+  "rdfs:comment": "View of Transform entity",
+  "annal:id": "Transform_view",
+  "annal:type_id": "_view",
+  "annal:record_type": "",
+  "annal:url": "/annalist/c/CALMA_data/d/_view/Transform_view/",
+  "annal:open_view": true,
+  "@id": "./",
   "@type": [
     "annal:View"
-  ], 
+  ],
   "annal:type": "annal:View"
 }
