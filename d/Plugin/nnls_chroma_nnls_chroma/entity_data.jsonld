@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns4:nnls-chroma", 
-  "rdfs:comment": "Resource ns4:nnls-chroma (http://vamp-plugins.org/rdf/plugins/nnls-chroma#nnls-chroma), id nnls_chroma_nnls_chroma", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#nnls-chroma", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns4:nnls-chroma", 
-  "annal:id": "nnls_chroma_nnls_chroma", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/nnls_chroma_nnls_chroma",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "nnls_chroma_nnls_chroma",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns4:nnls-chroma",
+  "rdfs:comment": "Resource ns4:nnls-chroma (http://vamp-plugins.org/rdf/plugins/nnls-chroma#nnls-chroma), id nnls_chroma_nnls_chroma",
+  "rdfs:label": "Resource ns4:nnls-chroma",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#nnls-chroma"
 }

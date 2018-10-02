@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spread", 
-  "rdfs:comment": "Resource ns1:spread (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread), id vamp_libxtract_spread", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:spread", 
-  "annal:id": "vamp_libxtract_spread", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_libxtract_spread",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_spread",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:spread",
+  "rdfs:comment": "Resource ns1:spread (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread), id vamp_libxtract_spread",
+  "rdfs:label": "Resource ns1:spread",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread"
 }

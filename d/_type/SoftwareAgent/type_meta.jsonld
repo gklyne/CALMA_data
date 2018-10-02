@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/SoftwareAgent",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:id": "SoftwareAgent",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "SoftwareAgent_list",
+  "annal:type_view": "SoftwareAgent_view",
+  "annal:uri": "prov:SoftwareAgent",
+  "rdfs:comment": "Type prov:SoftwareAgent (http://www.w3.org/ns/prov#SoftwareAgent)",
+  "rdfs:label": "Type prov:SoftwareAgent"
+}

@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:lowest_value_output_lowest_value", 
-  "rdfs:comment": "Resource ns1:lowest_value_output_lowest_value (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#lowest_value_output_lowest_value), id vamp_lib____output_lowest_value", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#lowest_value_output_lowest_value", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:lowest_value_output_lowest_value", 
-  "annal:id": "vamp_lib____output_lowest_value", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib____output_lowest_value",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib____output_lowest_value",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:lowest_value_output_lowest_value",
+  "rdfs:comment": "Resource ns1:lowest_value_output_lowest_value (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#lowest_value_output_lowest_value), id vamp_lib____output_lowest_value",
+  "rdfs:label": "Resource ns1:lowest_value_output_lowest_value",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#lowest_value_output_lowest_value"
 }

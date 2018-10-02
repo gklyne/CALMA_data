@@ -1,16 +1,23 @@
 {
-  "rdfs:label": "Resource track29:blob_event", 
-  "rdfs:comment": "Resource track29:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#blob_event), id 3a780085c5c0_blob_event", 
-  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#activity_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#blob_event", 
-  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#transform_1_spectral_variance", 
-  "annal:type_id": "Event", 
-  "mo:time": "ub30bL30C13", 
-  "annal:uri": "track29:blob_event", 
-  "annal:id": "3a780085c5c0_blob_event", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/3a780085c5c0_blob_event",
   "@type": [
-    "event:Event"
-  ], 
-  "annal:type": "event:Event"
+    "event:Event",
+    "annal:EntityData"
+  ],
+  "annal:id": "3a780085c5c0_blob_event",
+  "annal:type": "event:Event",
+  "annal:type_id": "Event",
+  "annal:uri": "track29:blob_event",
+  "mo:time": "ub30bL30C13",
+  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#activity_0",
+  "rdfs:comment": "Resource track29:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#blob_event), id 3a780085c5c0_blob_event",
+  "rdfs:label": "Resource track29:blob_event",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#blob_event",
+  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_573b626a-4b62-4947-a8c9-3a780085c5c0#transform_1_spectral_variance"
 }

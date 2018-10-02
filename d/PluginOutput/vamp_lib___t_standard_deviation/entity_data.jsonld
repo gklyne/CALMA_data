@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:standard_deviation_output_standard_deviation", 
-  "rdfs:comment": "Resource ns1:standard_deviation_output_standard_deviation (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation_output_standard_deviation), id vamp_lib___t_standard_deviation", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation_output_standard_deviation", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:standard_deviation_output_standard_deviation", 
-  "annal:id": "vamp_lib___t_standard_deviation", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___t_standard_deviation",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___t_standard_deviation",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:standard_deviation_output_standard_deviation",
+  "rdfs:comment": "Resource ns1:standard_deviation_output_standard_deviation (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation_output_standard_deviation), id vamp_lib___t_standard_deviation",
+  "rdfs:label": "Resource ns1:standard_deviation_output_standard_deviation",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation_output_standard_deviation"
 }

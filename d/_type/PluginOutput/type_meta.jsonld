@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/PluginOutput",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:id": "PluginOutput",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "PluginOutput_list",
+  "annal:type_view": "PluginOutput_view",
+  "annal:uri": "vamp:PluginOutput",
+  "rdfs:comment": "Type vamp:PluginOutput (http://purl.org/ontology/vamp/PluginOutput)",
+  "rdfs:label": "Type vamp:PluginOutput"
+}

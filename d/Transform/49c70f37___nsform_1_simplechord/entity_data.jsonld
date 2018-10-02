@@ -1,19 +1,26 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track13:transform_1_simplechord", 
-  "rdfs:comment": "Resource track13:transform_1_simplechord (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_130d57c8-ae69-4b44-9221-49c70f3774cb#transform_1_simplechord), id 49c70f37___nsform_1_simplechord", 
-  "vamp:block_size": "16384", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_130d57c8-ae69-4b44-9221-49c70f3774cb#transform_1_simplechord", 
-  "annal:type_id": "Transform", 
-  "vamp:parameter_binding": "ub14bL47C9", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino_output_simplechord", 
-  "annal:uri": "track13:transform_1_simplechord", 
-  "vamp:step_size": "2048", 
-  "annal:id": "49c70f37___nsform_1_simplechord", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/49c70f37___nsform_1_simplechord",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "49c70f37___nsform_1_simplechord",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track13:transform_1_simplechord",
+  "rdfs:comment": "Resource track13:transform_1_simplechord (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_130d57c8-ae69-4b44-9221-49c70f3774cb#transform_1_simplechord), id 49c70f37___nsform_1_simplechord",
+  "rdfs:label": "Resource track13:transform_1_simplechord",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_130d57c8-ae69-4b44-9221-49c70f3774cb#transform_1_simplechord",
+  "vamp:block_size": "16384",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino_output_simplechord",
+  "vamp:parameter_binding": "ub14bL47C9",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "2048"
 }

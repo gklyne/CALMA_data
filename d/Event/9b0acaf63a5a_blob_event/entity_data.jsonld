@@ -1,16 +1,23 @@
 {
-  "rdfs:label": "Resource track38:blob_event", 
-  "rdfs:comment": "Resource track38:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#blob_event), id 9b0acaf63a5a_blob_event", 
-  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#activity_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#blob_event", 
-  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#transform_1_tristimulus_1", 
-  "annal:type_id": "Event", 
-  "mo:time": "ub39bL30C13", 
-  "annal:uri": "track38:blob_event", 
-  "annal:id": "9b0acaf63a5a_blob_event", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/9b0acaf63a5a_blob_event",
   "@type": [
-    "event:Event"
-  ], 
-  "annal:type": "event:Event"
+    "event:Event",
+    "annal:EntityData"
+  ],
+  "annal:id": "9b0acaf63a5a_blob_event",
+  "annal:type": "event:Event",
+  "annal:type_id": "Event",
+  "annal:uri": "track38:blob_event",
+  "mo:time": "ub39bL30C13",
+  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#activity_0",
+  "rdfs:comment": "Resource track38:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#blob_event), id 9b0acaf63a5a_blob_event",
+  "rdfs:label": "Resource track38:blob_event",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#blob_event",
+  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_aac4ca8e-f6f5-4bbe-ba97-9b0acaf63a5a#transform_1_tristimulus_1"
 }

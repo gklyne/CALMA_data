@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns4:chordino", 
-  "rdfs:comment": "Resource ns4:chordino (http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino), id nnls_chroma_chordino", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns4:chordino", 
-  "annal:id": "nnls_chroma_chordino", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/nnls_chroma_chordino",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "nnls_chroma_chordino",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns4:chordino",
+  "rdfs:comment": "Resource ns4:chordino (http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino), id nnls_chroma_chordino",
+  "rdfs:label": "Resource ns4:chordino",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino"
 }

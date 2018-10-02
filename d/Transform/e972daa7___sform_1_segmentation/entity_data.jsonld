@@ -1,19 +1,26 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track17:transform_1_segmentation", 
-  "rdfs:comment": "Resource track17:transform_1_segmentation (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_b951cdac-d815-4c59-9766-e972daa7b2df#transform_1_segmentation), id e972daa7___sform_1_segmentation", 
-  "vamp:block_size": "26460", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_b951cdac-d815-4c59-9766-e972daa7b2df#transform_1_segmentation", 
-  "annal:type_id": "Transform", 
-  "vamp:parameter_binding": "ub18bL45C28", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter_output_segmentation", 
-  "annal:uri": "track17:transform_1_segmentation", 
-  "vamp:step_size": "8820", 
-  "annal:id": "e972daa7___sform_1_segmentation", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/e972daa7___sform_1_segmentation",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "e972daa7___sform_1_segmentation",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track17:transform_1_segmentation",
+  "rdfs:comment": "Resource track17:transform_1_segmentation (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_b951cdac-d815-4c59-9766-e972daa7b2df#transform_1_segmentation), id e972daa7___sform_1_segmentation",
+  "rdfs:label": "Resource track17:transform_1_segmentation",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_b951cdac-d815-4c59-9766-e972daa7b2df#transform_1_segmentation",
+  "vamp:block_size": "26460",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter_output_segmentation",
+  "vamp:parameter_binding": "ub18bL45C28",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "8820"
 }

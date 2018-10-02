@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns5:qm-similarity", 
-  "rdfs:comment": "Resource ns5:qm-similarity (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity), id qm_vamp_plugins_qm_similarity", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns5:qm-similarity", 
-  "annal:id": "qm_vamp_plugins_qm_similarity", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/qm_vamp_plugins_qm_similarity",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "qm_vamp_plugins_qm_similarity",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns5:qm-similarity",
+  "rdfs:comment": "Resource ns5:qm-similarity (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity), id qm_vamp_plugins_qm_similarity",
+  "rdfs:label": "Resource ns5:qm-similarity",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-similarity"
 }

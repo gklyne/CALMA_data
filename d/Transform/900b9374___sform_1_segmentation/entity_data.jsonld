@@ -1,19 +1,26 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track20:transform_1_segmentation", 
-  "rdfs:comment": "Resource track20:transform_1_segmentation (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ba42e7b2-6d84-4d4d-9d46-900b93747174#transform_1_segmentation), id 900b9374___sform_1_segmentation", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ba42e7b2-6d84-4d4d-9d46-900b93747174#transform_1_segmentation", 
-  "annal:type_id": "Transform", 
-  "vamp:parameter_binding": "ub21bL49C9", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter_output_segmentation", 
-  "annal:uri": "track20:transform_1_segmentation", 
-  "vamp:step_size": "1024", 
-  "annal:id": "900b9374___sform_1_segmentation", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/900b9374___sform_1_segmentation",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "900b9374___sform_1_segmentation",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track20:transform_1_segmentation",
+  "rdfs:comment": "Resource track20:transform_1_segmentation (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ba42e7b2-6d84-4d4d-9d46-900b93747174#transform_1_segmentation), id 900b9374___sform_1_segmentation",
+  "rdfs:label": "Resource track20:transform_1_segmentation",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ba42e7b2-6d84-4d4d-9d46-900b93747174#transform_1_segmentation",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter_output_segmentation",
+  "vamp:parameter_binding": "ub21bL49C9",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

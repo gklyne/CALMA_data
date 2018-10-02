@@ -1,14 +1,21 @@
 {
-  "rdfs:label": "Resource track11:plan_0", 
-  "rdfs:comment": "Resource track11:plan_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#plan_0), id abc77caebe8e_plan_0", 
-  "annal:uri": "track11:plan_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#plan_0", 
-  "annal:type_id": "Plan", 
-  "annal:id": "abc77caebe8e_plan_0", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plan/abc77caebe8e_plan_0",
   "@type": [
-    "prov:Plan"
-  ], 
-  "calma:command_seq": "ub12bL37C23", 
-  "annal:type": "prov:Plan"
+    "prov:Plan",
+    "annal:EntityData"
+  ],
+  "annal:id": "abc77caebe8e_plan_0",
+  "annal:type": "prov:Plan",
+  "annal:type_id": "Plan",
+  "annal:uri": "track11:plan_0",
+  "calma:command_seq": "ub12bL37C23",
+  "rdfs:comment": "Resource track11:plan_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#plan_0), id abc77caebe8e_plan_0",
+  "rdfs:label": "Resource track11:plan_0",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#plan_0"
 }

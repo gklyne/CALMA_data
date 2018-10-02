@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Activity_list",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "Activity",
+  "annal:default_view": "Activity_view",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Activity_list",
+  "annal:list_entity_selector": "'prov:Activity' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of Activity entities",
+  "rdfs:label": "List Activity"
+}

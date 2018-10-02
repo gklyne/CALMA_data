@@ -1,16 +1,23 @@
 {
-  "rdfs:label": "Resource track16:association_0", 
-  "rdfs:comment": "Resource track16:association_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_31c73a36-9fdc-47d2-859c-ce31a4868b27#association_0), id ce31a4868b27_association_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_31c73a36-9fdc-47d2-859c-ce31a4868b27#association_0", 
-  "annal:type_id": "Association", 
-  "prov:hadRole": "http://calma.linkedmusic.org/roles/feature_extraction_plugin", 
-  "prov:agent": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_standard_deviation", 
-  "annal:uri": "track16:association_0", 
-  "prov:qualifiedAssociation": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_31c73a36-9fdc-47d2-859c-ce31a4868b27#activity_0", 
-  "annal:id": "ce31a4868b27_association_0", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Association/ce31a4868b27_association_0",
   "@type": [
-    "prov:Association"
-  ], 
-  "annal:type": "prov:Association"
+    "prov:Association",
+    "annal:EntityData"
+  ],
+  "annal:id": "ce31a4868b27_association_0",
+  "annal:type": "prov:Association",
+  "annal:type_id": "Association",
+  "annal:uri": "track16:association_0",
+  "prov:agent": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_standard_deviation",
+  "prov:hadRole": "http://calma.linkedmusic.org/roles/feature_extraction_plugin",
+  "prov:qualifiedAssociation": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_31c73a36-9fdc-47d2-859c-ce31a4868b27#activity_0",
+  "rdfs:comment": "Resource track16:association_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_31c73a36-9fdc-47d2-859c-ce31a4868b27#association_0), id ce31a4868b27_association_0",
+  "rdfs:label": "Resource track16:association_0",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_31c73a36-9fdc-47d2-859c-ce31a4868b27#association_0"
 }

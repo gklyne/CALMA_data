@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns5:qm-mfcc", 
-  "rdfs:comment": "Resource ns5:qm-mfcc (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc), id qm_vamp_plugins_qm_mfcc", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns5:qm-mfcc", 
-  "annal:id": "qm_vamp_plugins_qm_mfcc", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/qm_vamp_plugins_qm_mfcc",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "qm_vamp_plugins_qm_mfcc",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns5:qm-mfcc",
+  "rdfs:comment": "Resource ns5:qm-mfcc (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc), id qm_vamp_plugins_qm_mfcc",
+  "rdfs:label": "Resource ns5:qm-mfcc",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc"
 }

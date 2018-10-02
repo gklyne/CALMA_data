@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/time_field",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:id": "time_field",
+  "annal:placeholder": "(time_field)",
+  "annal:property_uri": "mo:time",
+  "annal:tooltip": "Field time_field (mo:time, http://www.w3.org/ns/prov#wasGeneratedBy)",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# time\r\n\r\nField time_field (mo:time, http://www.w3.org/ns/prov#wasGeneratedBy)",
+  "rdfs:label": "time"
+}

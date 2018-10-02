@@ -1,19 +1,26 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track22:transform_1_spectral_inharmonicity", 
-  "rdfs:comment": "Resource track22:transform_1_spectral_inharmonicity (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1f9af892-69cf-49aa-b380-cf5a029d9c26#transform_1_spectral_inharmonicity), id cf5a029d___ectral_inharmonicity", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1f9af892-69cf-49aa-b380-cf5a029d9c26#transform_1_spectral_inharmonicity", 
-  "annal:type_id": "Transform", 
-  "vamp:parameter_binding": "ub23bL45C28", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity_output_spectral_inharmonicity", 
-  "annal:uri": "track22:transform_1_spectral_inharmonicity", 
-  "vamp:step_size": "1024", 
-  "annal:id": "cf5a029d___ectral_inharmonicity", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/cf5a029d___ectral_inharmonicity",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "cf5a029d___ectral_inharmonicity",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track22:transform_1_spectral_inharmonicity",
+  "rdfs:comment": "Resource track22:transform_1_spectral_inharmonicity (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1f9af892-69cf-49aa-b380-cf5a029d9c26#transform_1_spectral_inharmonicity), id cf5a029d___ectral_inharmonicity",
+  "rdfs:label": "Resource track22:transform_1_spectral_inharmonicity",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1f9af892-69cf-49aa-b380-cf5a029d9c26#transform_1_spectral_inharmonicity",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity_output_spectral_inharmonicity",
+  "vamp:parameter_binding": "ub23bL45C28",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

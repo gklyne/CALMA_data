@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:loudness", 
-  "rdfs:comment": "Resource ns1:loudness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#loudness), id vamp_libxtract_loudness", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#loudness", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:loudness", 
-  "annal:id": "vamp_libxtract_loudness", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_libxtract_loudness",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_loudness",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:loudness",
+  "rdfs:comment": "Resource ns1:loudness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#loudness), id vamp_libxtract_loudness",
+  "rdfs:label": "Resource ns1:loudness",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#loudness"
 }

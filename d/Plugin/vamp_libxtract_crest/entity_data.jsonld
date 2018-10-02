@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:crest", 
-  "rdfs:comment": "Resource ns1:crest (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#crest), id vamp_libxtract_crest", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#crest", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:crest", 
-  "annal:id": "vamp_libxtract_crest", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_libxtract_crest",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_crest",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:crest",
+  "rdfs:comment": "Resource ns1:crest (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#crest), id vamp_libxtract_crest",
+  "rdfs:label": "Resource ns1:crest",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#crest"
 }

@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Event",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:id": "Event",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "Event_list",
+  "annal:type_view": "Event_view",
+  "annal:uri": "event:Event",
+  "rdfs:comment": "Type event:Event (http://purl.org/NET/c4dm/event.owl#Event)",
+  "rdfs:label": "Type event:Event"
+}

@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track9:transform_1_standard_deviation", 
-  "rdfs:comment": "Resource track9:transform_1_standard_deviation (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_c7273066-2342-4d05-847d-4a4c0029a5c0#transform_1_standard_deviation), id 4a4c0029___1_standard_deviation", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_c7273066-2342-4d05-847d-4a4c0029a5c0#transform_1_standard_deviation", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation_output_standard_deviation", 
-  "annal:uri": "track9:transform_1_standard_deviation", 
-  "vamp:step_size": "1024", 
-  "annal:id": "4a4c0029___1_standard_deviation", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/4a4c0029___1_standard_deviation",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "4a4c0029___1_standard_deviation",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track9:transform_1_standard_deviation",
+  "rdfs:comment": "Resource track9:transform_1_standard_deviation (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_c7273066-2342-4d05-847d-4a4c0029a5c0#transform_1_standard_deviation), id 4a4c0029___1_standard_deviation",
+  "rdfs:label": "Resource track9:transform_1_standard_deviation",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_c7273066-2342-4d05-847d-4a4c0029a5c0#transform_1_standard_deviation",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation_output_standard_deviation",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#standard_deviation",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

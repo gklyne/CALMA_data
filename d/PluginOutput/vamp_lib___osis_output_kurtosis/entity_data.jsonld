@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:kurtosis_output_kurtosis", 
-  "rdfs:comment": "Resource ns1:kurtosis_output_kurtosis (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#kurtosis_output_kurtosis), id vamp_lib___osis_output_kurtosis", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#kurtosis_output_kurtosis", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:kurtosis_output_kurtosis", 
-  "annal:id": "vamp_lib___osis_output_kurtosis", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___osis_output_kurtosis",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___osis_output_kurtosis",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:kurtosis_output_kurtosis",
+  "rdfs:comment": "Resource ns1:kurtosis_output_kurtosis (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#kurtosis_output_kurtosis), id vamp_lib___osis_output_kurtosis",
+  "rdfs:label": "Resource ns1:kurtosis_output_kurtosis",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#kurtosis_output_kurtosis"
 }

@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:bark_coefficients_output_bark_coefficients", 
-  "rdfs:comment": "Resource ns1:bark_coefficients_output_bark_coefficients (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#bark_coefficients_output_bark_coefficients), id vamp_lib___ut_bark_coefficients", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#bark_coefficients_output_bark_coefficients", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:bark_coefficients_output_bark_coefficients", 
-  "annal:id": "vamp_lib___ut_bark_coefficients", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_lib___ut_bark_coefficients",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ut_bark_coefficients",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:bark_coefficients_output_bark_coefficients",
+  "rdfs:comment": "Resource ns1:bark_coefficients_output_bark_coefficients (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#bark_coefficients_output_bark_coefficients), id vamp_lib___ut_bark_coefficients",
+  "rdfs:label": "Resource ns1:bark_coefficients_output_bark_coefficients",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#bark_coefficients_output_bark_coefficients"
 }

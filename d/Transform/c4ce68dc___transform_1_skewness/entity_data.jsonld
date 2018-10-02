@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track3:transform_1_skewness", 
-  "rdfs:comment": "Resource track3:transform_1_skewness (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1c043e5d-f7a2-4948-b5de-c4ce68dc0d90#transform_1_skewness), id c4ce68dc___transform_1_skewness", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1c043e5d-f7a2-4948-b5de-c4ce68dc0d90#transform_1_skewness", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness_output_skewness", 
-  "annal:uri": "track3:transform_1_skewness", 
-  "vamp:step_size": "1024", 
-  "annal:id": "c4ce68dc___transform_1_skewness", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/c4ce68dc___transform_1_skewness",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "c4ce68dc___transform_1_skewness",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track3:transform_1_skewness",
+  "rdfs:comment": "Resource track3:transform_1_skewness (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1c043e5d-f7a2-4948-b5de-c4ce68dc0d90#transform_1_skewness), id c4ce68dc___transform_1_skewness",
+  "rdfs:label": "Resource track3:transform_1_skewness",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_1c043e5d-f7a2-4948-b5de-c4ce68dc0d90#transform_1_skewness",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness_output_skewness",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

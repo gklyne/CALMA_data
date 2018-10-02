@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:smoothness_output_smoothness", 
-  "rdfs:comment": "Resource ns1:smoothness_output_smoothness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#smoothness_output_smoothness), id vamp_lib___ss_output_smoothness", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#smoothness_output_smoothness", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:smoothness_output_smoothness", 
-  "annal:id": "vamp_lib___ss_output_smoothness", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___ss_output_smoothness",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ss_output_smoothness",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:smoothness_output_smoothness",
+  "rdfs:comment": "Resource ns1:smoothness_output_smoothness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#smoothness_output_smoothness), id vamp_lib___ss_output_smoothness",
+  "rdfs:label": "Resource ns1:smoothness_output_smoothness",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#smoothness_output_smoothness"
 }

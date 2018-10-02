@@ -1,0 +1,53 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_view/Activity_view",
+  "@type": [
+    "annal:List",
+    "annal:View"
+  ],
+  "annal:id": "Activity_view",
+  "annal:open_view": true,
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "annal:view_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,12;medium:0,6"
+    },
+    {
+      "annal:field_id": "RDF_type",
+      "annal:field_placement": "small:0,12;medium:0,6"
+    },
+    {
+      "annal:field_id": "RDF_link",
+      "annal:field_placement": "small:0,12"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:0,12"
+    },
+    {
+      "annal:field_id": "Entity_comment",
+      "annal:field_placement": "small:0,12"
+    },
+    {
+      "annal:field_id": "used_field",
+      "annal:field_placement": "small:0,12"
+    },
+    {
+      "annal:field_id": "wasAssociatedWith_field",
+      "annal:field_placement": "small:0,12"
+    },
+    {
+      "annal:field_id": "command_field",
+      "annal:field_placement": "small:0,12"
+    }
+  ],
+  "rdfs:comment": "View of Activity entity",
+  "rdfs:label": "View Activity"
+}

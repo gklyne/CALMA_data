@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:irregularity_j_output_irregularity_j", 
-  "rdfs:comment": "Resource ns1:irregularity_j_output_irregularity_j (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_j_output_irregularity_j), id vamp_lib___utput_irregularity_j", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_j_output_irregularity_j", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:irregularity_j_output_irregularity_j", 
-  "annal:id": "vamp_lib___utput_irregularity_j", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_lib___utput_irregularity_j",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___utput_irregularity_j",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:irregularity_j_output_irregularity_j",
+  "rdfs:comment": "Resource ns1:irregularity_j_output_irregularity_j (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_j_output_irregularity_j), id vamp_lib___utput_irregularity_j",
+  "rdfs:label": "Resource ns1:irregularity_j_output_irregularity_j",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_j_output_irregularity_j"
 }

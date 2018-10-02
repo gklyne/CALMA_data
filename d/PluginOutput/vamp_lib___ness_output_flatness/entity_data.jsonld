@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:flatness_output_flatness", 
-  "rdfs:comment": "Resource ns1:flatness_output_flatness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness_output_flatness), id vamp_lib___ness_output_flatness", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness_output_flatness", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:flatness_output_flatness", 
-  "annal:id": "vamp_lib___ness_output_flatness", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___ness_output_flatness",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ness_output_flatness",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:flatness_output_flatness",
+  "rdfs:comment": "Resource ns1:flatness_output_flatness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness_output_flatness), id vamp_lib___ness_output_flatness",
+  "rdfs:label": "Resource ns1:flatness_output_flatness",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness_output_flatness"
 }

@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track31:transform_1_highest_value", 
-  "rdfs:comment": "Resource track31:transform_1_highest_value (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_37eacc6a-ebd1-4889-b8d5-b75a18e55093#transform_1_highest_value), id b75a18e5___form_1_highest_value", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_37eacc6a-ebd1-4889-b8d5-b75a18e55093#transform_1_highest_value", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value_output_highest_value", 
-  "annal:uri": "track31:transform_1_highest_value", 
-  "vamp:step_size": "1024", 
-  "annal:id": "b75a18e5___form_1_highest_value", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/b75a18e5___form_1_highest_value",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "b75a18e5___form_1_highest_value",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track31:transform_1_highest_value",
+  "rdfs:comment": "Resource track31:transform_1_highest_value (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_37eacc6a-ebd1-4889-b8d5-b75a18e55093#transform_1_highest_value), id b75a18e5___form_1_highest_value",
+  "rdfs:label": "Resource track31:transform_1_highest_value",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_37eacc6a-ebd1-4889-b8d5-b75a18e55093#transform_1_highest_value",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value_output_highest_value",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

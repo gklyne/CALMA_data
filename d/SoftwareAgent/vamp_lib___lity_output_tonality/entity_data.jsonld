@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:tonality_output_tonality", 
-  "rdfs:comment": "Resource ns1:tonality_output_tonality (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality_output_tonality), id vamp_lib___lity_output_tonality", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality_output_tonality", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:tonality_output_tonality", 
-  "annal:id": "vamp_lib___lity_output_tonality", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_lib___lity_output_tonality",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___lity_output_tonality",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:tonality_output_tonality",
+  "rdfs:comment": "Resource ns1:tonality_output_tonality (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality_output_tonality), id vamp_lib___lity_output_tonality",
+  "rdfs:label": "Resource ns1:tonality_output_tonality",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality_output_tonality"
 }

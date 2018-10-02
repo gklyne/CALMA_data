@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track26:transform_1_sum", 
-  "rdfs:comment": "Resource track26:transform_1_sum (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#transform_1_sum), id 90cec0812f31_transform_1_sum", 
-  "vamp:block_size": "1024", 
-  "vamp:sample_rate": "44100.0", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sum_output_sum", 
-  "annal:uri": "track26:transform_1_sum", 
-  "vamp:step_size": "1024", 
-  "annal:id": "90cec0812f31_transform_1_sum", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sum", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/90cec0812f31_transform_1_sum",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#transform_1_sum"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "90cec0812f31_transform_1_sum",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track26:transform_1_sum",
+  "rdfs:comment": "Resource track26:transform_1_sum (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#transform_1_sum), id 90cec0812f31_transform_1_sum",
+  "rdfs:label": "Resource track26:transform_1_sum",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#transform_1_sum",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sum_output_sum",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sum",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

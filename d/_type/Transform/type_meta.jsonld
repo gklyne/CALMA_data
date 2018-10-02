@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Transform",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:id": "Transform",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "Transform_list",
+  "annal:type_view": "Transform_view",
+  "annal:uri": "vamp:Transform",
+  "rdfs:comment": "Type vamp:Transform (http://purl.org/ontology/vamp/Transform)",
+  "rdfs:label": "Type vamp:Transform"
+}

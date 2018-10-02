@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:flatness", 
-  "rdfs:comment": "Resource ns1:flatness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness), id vamp_libxtract_flatness", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:flatness", 
-  "annal:id": "vamp_libxtract_flatness", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_libxtract_flatness",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_flatness",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:flatness",
+  "rdfs:comment": "Resource ns1:flatness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness), id vamp_libxtract_flatness",
+  "rdfs:label": "Resource ns1:flatness",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#flatness"
 }

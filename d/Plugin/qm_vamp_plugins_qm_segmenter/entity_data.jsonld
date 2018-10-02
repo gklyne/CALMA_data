@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns5:qm-segmenter", 
-  "rdfs:comment": "Resource ns5:qm-segmenter (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter), id qm_vamp_plugins_qm_segmenter", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns5:qm-segmenter", 
-  "annal:id": "qm_vamp_plugins_qm_segmenter", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/qm_vamp_plugins_qm_segmenter",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "qm_vamp_plugins_qm_segmenter",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns5:qm-segmenter",
+  "rdfs:comment": "Resource ns5:qm-segmenter (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter), id qm_vamp_plugins_qm_segmenter",
+  "rdfs:label": "Resource ns5:qm-segmenter",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-segmenter"
 }

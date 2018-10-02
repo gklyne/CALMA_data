@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns2:bbc-speechmusic-segmenter_output_segmentation", 
-  "rdfs:comment": "Resource ns2:bbc-speechmusic-segmenter_output_segmentation (http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter_output_segmentation), id bbc_vamp____output_segmentation", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter_output_segmentation", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns2:bbc-speechmusic-segmenter_output_segmentation", 
-  "annal:id": "bbc_vamp____output_segmentation", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/bbc_vamp____output_segmentation",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "bbc_vamp____output_segmentation",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns2:bbc-speechmusic-segmenter_output_segmentation",
+  "rdfs:comment": "Resource ns2:bbc-speechmusic-segmenter_output_segmentation (http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter_output_segmentation), id bbc_vamp____output_segmentation",
+  "rdfs:label": "Resource ns2:bbc-speechmusic-segmenter_output_segmentation",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/bbc-vamp-plugins#bbc-speechmusic-segmenter_output_segmentation"
 }

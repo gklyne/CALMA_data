@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:tonality", 
-  "rdfs:comment": "Resource ns1:tonality (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality), id vamp_libxtract_tonality", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:tonality", 
-  "annal:id": "vamp_libxtract_tonality", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_libxtract_tonality",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_tonality",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:tonality",
+  "rdfs:comment": "Resource ns1:tonality (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality), id vamp_libxtract_tonality",
+  "rdfs:label": "Resource ns1:tonality",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality"
 }

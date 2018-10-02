@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:average_deviation_output_average_deviation", 
-  "rdfs:comment": "Resource ns1:average_deviation_output_average_deviation (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#average_deviation_output_average_deviation), id vamp_lib___ut_average_deviation", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#average_deviation_output_average_deviation", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:average_deviation_output_average_deviation", 
-  "annal:id": "vamp_lib___ut_average_deviation", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___ut_average_deviation",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ut_average_deviation",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:average_deviation_output_average_deviation",
+  "rdfs:comment": "Resource ns1:average_deviation_output_average_deviation (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#average_deviation_output_average_deviation), id vamp_lib___ut_average_deviation",
+  "rdfs:label": "Resource ns1:average_deviation_output_average_deviation",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#average_deviation_output_average_deviation"
 }

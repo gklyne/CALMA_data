@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/RDF_link",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_render_type": "_enum_render_type/URILink",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:id": "RDF_link",
+  "annal:placeholder": "(RDF_link)",
+  "annal:property_uri": "rdfs:seeAlso",
+  "annal:tooltip": "Field RDF_link (rdfs:seeAlso, http://www.w3.org/2000/01/rdf-schema#seeAlso)",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# See\r\n\r\nField RDF_link (rdfs:seeAlso, http://www.w3.org/2000/01/rdf-schema#seeAlso)",
+  "rdfs:label": "See"
+}

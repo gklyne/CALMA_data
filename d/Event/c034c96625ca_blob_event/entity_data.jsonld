@@ -1,16 +1,23 @@
 {
-  "rdfs:label": "Resource track7:blob_event", 
-  "rdfs:comment": "Resource track7:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#blob_event), id c034c96625ca_blob_event", 
-  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#activity_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#blob_event", 
-  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#transform_1_irregularity_j", 
-  "annal:type_id": "Event", 
-  "mo:time": "ub8bL30C13", 
-  "annal:uri": "track7:blob_event", 
-  "annal:id": "c034c96625ca_blob_event", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/c034c96625ca_blob_event",
   "@type": [
-    "event:Event"
-  ], 
-  "annal:type": "event:Event"
+    "event:Event",
+    "annal:EntityData"
+  ],
+  "annal:id": "c034c96625ca_blob_event",
+  "annal:type": "event:Event",
+  "annal:type_id": "Event",
+  "annal:uri": "track7:blob_event",
+  "mo:time": "ub8bL30C13",
+  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#activity_0",
+  "rdfs:comment": "Resource track7:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#blob_event), id c034c96625ca_blob_event",
+  "rdfs:label": "Resource track7:blob_event",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#blob_event",
+  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d9ef75b1-89f9-41a6-81ef-c034c96625ca#transform_1_irregularity_j"
 }

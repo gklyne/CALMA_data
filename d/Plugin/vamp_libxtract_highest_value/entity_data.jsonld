@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:highest_value", 
-  "rdfs:comment": "Resource ns1:highest_value (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value), id vamp_libxtract_highest_value", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:highest_value", 
-  "annal:id": "vamp_libxtract_highest_value", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_libxtract_highest_value",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_highest_value",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:highest_value",
+  "rdfs:comment": "Resource ns1:highest_value (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value), id vamp_libxtract_highest_value",
+  "rdfs:label": "Resource ns1:highest_value",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#highest_value"
 }

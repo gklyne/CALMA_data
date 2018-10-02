@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spectral_slope_output_spectral_slope", 
-  "rdfs:comment": "Resource ns1:spectral_slope_output_spectral_slope (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope_output_spectral_slope), id vamp_lib___utput_spectral_slope", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope_output_spectral_slope", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:spectral_slope_output_spectral_slope", 
-  "annal:id": "vamp_lib___utput_spectral_slope", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___utput_spectral_slope",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___utput_spectral_slope",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:spectral_slope_output_spectral_slope",
+  "rdfs:comment": "Resource ns1:spectral_slope_output_spectral_slope (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope_output_spectral_slope), id vamp_lib___utput_spectral_slope",
+  "rdfs:label": "Resource ns1:spectral_slope_output_spectral_slope",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope_output_spectral_slope"
 }

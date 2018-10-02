@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:sharpness_output_sharpness", 
-  "rdfs:comment": "Resource ns1:sharpness_output_sharpness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness_output_sharpness), id vamp_lib___ess_output_sharpness", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness_output_sharpness", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:sharpness_output_sharpness", 
-  "annal:id": "vamp_lib___ess_output_sharpness", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___ess_output_sharpness",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ess_output_sharpness",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:sharpness_output_sharpness",
+  "rdfs:comment": "Resource ns1:sharpness_output_sharpness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness_output_sharpness), id vamp_lib___ess_output_sharpness",
+  "rdfs:label": "Resource ns1:sharpness_output_sharpness",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#sharpness_output_sharpness"
 }

@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track10:transform_1_spectral_slope", 
-  "rdfs:comment": "Resource track10:transform_1_spectral_slope (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_8a5933ee-5bf5-4fd3-8590-f97966422af1#transform_1_spectral_slope), id f9796642___orm_1_spectral_slope", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_8a5933ee-5bf5-4fd3-8590-f97966422af1#transform_1_spectral_slope", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope_output_spectral_slope", 
-  "annal:uri": "track10:transform_1_spectral_slope", 
-  "vamp:step_size": "1024", 
-  "annal:id": "f9796642___orm_1_spectral_slope", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/f9796642___orm_1_spectral_slope",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "f9796642___orm_1_spectral_slope",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track10:transform_1_spectral_slope",
+  "rdfs:comment": "Resource track10:transform_1_spectral_slope (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_8a5933ee-5bf5-4fd3-8590-f97966422af1#transform_1_spectral_slope), id f9796642___orm_1_spectral_slope",
+  "rdfs:label": "Resource track10:transform_1_spectral_slope",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_8a5933ee-5bf5-4fd3-8590-f97966422af1#transform_1_spectral_slope",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope_output_spectral_slope",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

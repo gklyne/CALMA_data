@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Plugin",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:id": "Plugin",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "Plugin_list",
+  "annal:type_view": "Plugin_view",
+  "annal:uri": "vamp:Plugin",
+  "rdfs:comment": "Type vamp:Plugin (http://purl.org/ontology/vamp/Plugin)",
+  "rdfs:label": "Type vamp:Plugin"
+}

@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spectral_inharmonicity", 
-  "rdfs:comment": "Resource ns1:spectral_inharmonicity (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity), id vamp_lib___ectral_inharmonicity", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:spectral_inharmonicity", 
-  "annal:id": "vamp_lib___ectral_inharmonicity", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_lib___ectral_inharmonicity",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ectral_inharmonicity",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:spectral_inharmonicity",
+  "rdfs:comment": "Resource ns1:spectral_inharmonicity (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity), id vamp_lib___ectral_inharmonicity",
+  "rdfs:label": "Resource ns1:spectral_inharmonicity",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_inharmonicity"
 }

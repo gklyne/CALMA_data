@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:skewness", 
-  "rdfs:comment": "Resource ns1:skewness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness), id vamp_libxtract_skewness", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:skewness", 
-  "annal:id": "vamp_libxtract_skewness", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_libxtract_skewness",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_skewness",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:skewness",
+  "rdfs:comment": "Resource ns1:skewness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness), id vamp_libxtract_skewness",
+  "rdfs:label": "Resource ns1:skewness",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#skewness"
 }

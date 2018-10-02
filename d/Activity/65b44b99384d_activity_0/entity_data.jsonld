@@ -1,15 +1,22 @@
 {
-  "rdfs:label": "Resource track24:activity_0", 
-  "rdfs:comment": "Resource track24:activity_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_136c082e-b2f1-4bb4-b450-65b44b99384d#activity_0), id 65b44b99384d_activity_0", 
-  "prov:used": "http://calma.linkedmusic.org/audio/jmraz2009-09-19t20.wav", 
-  "prov:wasAssociatedWith": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_136c082e-b2f1-4bb4-b450-65b44b99384d#activity_0", 
-  "annal:type_id": "Activity", 
-  "annal:uri": "track24:activity_0", 
-  "annal:id": "65b44b99384d_activity_0", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Activity/65b44b99384d_activity_0",
   "@type": [
-    "prov:Activity"
-  ], 
-  "annal:type": "prov:Activity"
+    "prov:Activity",
+    "annal:EntityData"
+  ],
+  "annal:id": "65b44b99384d_activity_0",
+  "annal:type": "prov:Activity",
+  "annal:type_id": "Activity",
+  "annal:uri": "track24:activity_0",
+  "prov:used": "http://calma.linkedmusic.org/audio/jmraz2009-09-19t20.wav",
+  "prov:wasAssociatedWith": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#tonality",
+  "rdfs:comment": "Resource track24:activity_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_136c082e-b2f1-4bb4-b450-65b44b99384d#activity_0), id 65b44b99384d_activity_0",
+  "rdfs:label": "Resource track24:activity_0",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_136c082e-b2f1-4bb4-b450-65b44b99384d#activity_0"
 }

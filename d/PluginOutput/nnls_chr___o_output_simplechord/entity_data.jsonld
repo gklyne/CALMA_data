@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns4:chordino_output_simplechord", 
-  "rdfs:comment": "Resource ns4:chordino_output_simplechord (http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino_output_simplechord), id nnls_chr___o_output_simplechord", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino_output_simplechord", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns4:chordino_output_simplechord", 
-  "annal:id": "nnls_chr___o_output_simplechord", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/nnls_chr___o_output_simplechord",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "nnls_chr___o_output_simplechord",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns4:chordino_output_simplechord",
+  "rdfs:comment": "Resource ns4:chordino_output_simplechord (http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino_output_simplechord), id nnls_chr___o_output_simplechord",
+  "rdfs:label": "Resource ns4:chordino_output_simplechord",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino_output_simplechord"
 }

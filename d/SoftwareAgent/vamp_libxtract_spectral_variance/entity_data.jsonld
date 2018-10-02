@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spectral_variance", 
-  "rdfs:comment": "Resource ns1:spectral_variance (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_variance), id vamp_libxtract_spectral_variance", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_variance", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:spectral_variance", 
-  "annal:id": "vamp_libxtract_spectral_variance", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_libxtract_spectral_variance",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_spectral_variance",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:spectral_variance",
+  "rdfs:comment": "Resource ns1:spectral_variance (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_variance), id vamp_libxtract_spectral_variance",
+  "rdfs:label": "Resource ns1:spectral_variance",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_variance"
 }

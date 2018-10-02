@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns5:qm-keydetector_output_key", 
-  "rdfs:comment": "Resource ns5:qm-keydetector_output_key (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-keydetector_output_key), id qm_vamp____ydetector_output_key", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-keydetector_output_key", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns5:qm-keydetector_output_key", 
-  "annal:id": "qm_vamp____ydetector_output_key", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/qm_vamp____ydetector_output_key",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "qm_vamp____ydetector_output_key",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns5:qm-keydetector_output_key",
+  "rdfs:comment": "Resource ns5:qm-keydetector_output_key (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-keydetector_output_key), id qm_vamp____ydetector_output_key",
+  "rdfs:label": "Resource ns5:qm-keydetector_output_key",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-keydetector_output_key"
 }

@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:zcr_output_zcr", 
-  "rdfs:comment": "Resource ns1:zcr_output_zcr (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#zcr_output_zcr), id vamp_libxtract_zcr_output_zcr", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#zcr_output_zcr", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:zcr_output_zcr", 
-  "annal:id": "vamp_libxtract_zcr_output_zcr", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_libxtract_zcr_output_zcr",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_zcr_output_zcr",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:zcr_output_zcr",
+  "rdfs:comment": "Resource ns1:zcr_output_zcr (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#zcr_output_zcr), id vamp_libxtract_zcr_output_zcr",
+  "rdfs:label": "Resource ns1:zcr_output_zcr",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#zcr_output_zcr"
 }

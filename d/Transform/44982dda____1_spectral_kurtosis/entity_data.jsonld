@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track39:transform_1_spectral_kurtosis", 
-  "rdfs:comment": "Resource track39:transform_1_spectral_kurtosis (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_59e09427-5c9d-43af-97de-44982ddaf01c#transform_1_spectral_kurtosis), id 44982dda____1_spectral_kurtosis", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_59e09427-5c9d-43af-97de-44982ddaf01c#transform_1_spectral_kurtosis", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis_output_spectral_kurtosis", 
-  "annal:uri": "track39:transform_1_spectral_kurtosis", 
-  "vamp:step_size": "1024", 
-  "annal:id": "44982dda____1_spectral_kurtosis", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/44982dda____1_spectral_kurtosis",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "44982dda____1_spectral_kurtosis",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track39:transform_1_spectral_kurtosis",
+  "rdfs:comment": "Resource track39:transform_1_spectral_kurtosis (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_59e09427-5c9d-43af-97de-44982ddaf01c#transform_1_spectral_kurtosis), id 44982dda____1_spectral_kurtosis",
+  "rdfs:label": "Resource track39:transform_1_spectral_kurtosis",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_59e09427-5c9d-43af-97de-44982ddaf01c#transform_1_spectral_kurtosis",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis_output_spectral_kurtosis",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

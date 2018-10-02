@@ -1,16 +1,23 @@
 {
-  "rdfs:label": "Resource track26:blob_event", 
-  "rdfs:comment": "Resource track26:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#blob_event), id 90cec0812f31_blob_event", 
-  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#activity_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#blob_event", 
-  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#transform_1_sum", 
-  "annal:type_id": "Event", 
-  "mo:time": "ub27bL30C13", 
-  "annal:uri": "track26:blob_event", 
-  "annal:id": "90cec0812f31_blob_event", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/90cec0812f31_blob_event",
   "@type": [
-    "event:Event"
-  ], 
-  "annal:type": "event:Event"
+    "event:Event",
+    "annal:EntityData"
+  ],
+  "annal:id": "90cec0812f31_blob_event",
+  "annal:type": "event:Event",
+  "annal:type_id": "Event",
+  "annal:uri": "track26:blob_event",
+  "mo:time": "ub27bL30C13",
+  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#activity_0",
+  "rdfs:comment": "Resource track26:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#blob_event), id 90cec0812f31_blob_event",
+  "rdfs:label": "Resource track26:blob_event",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#blob_event",
+  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5e0f1aef-b124-4a4a-a5ca-90cec0812f31#transform_1_sum"
 }

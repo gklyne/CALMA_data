@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spectral_kurtosis", 
-  "rdfs:comment": "Resource ns1:spectral_kurtosis (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis), id vamp_libxtract_spectral_kurtosis", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:spectral_kurtosis", 
-  "annal:id": "vamp_libxtract_spectral_kurtosis", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_libxtract_spectral_kurtosis",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_spectral_kurtosis",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:spectral_kurtosis",
+  "rdfs:comment": "Resource ns1:spectral_kurtosis (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis), id vamp_libxtract_spectral_kurtosis",
+  "rdfs:label": "Resource ns1:spectral_kurtosis",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_kurtosis"
 }

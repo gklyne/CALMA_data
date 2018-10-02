@@ -1,16 +1,23 @@
 {
-  "rdfs:label": "Resource track15:association_0", 
-  "rdfs:comment": "Resource track15:association_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d0313cb9-e1c4-4bd0-be4a-7f76566b43f8#association_0), id 7f76566b43f8_association_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d0313cb9-e1c4-4bd0-be4a-7f76566b43f8#association_0", 
-  "annal:type_id": "Association", 
-  "prov:hadRole": "http://calma.linkedmusic.org/roles/feature_extraction_plugin", 
-  "prov:agent": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker", 
-  "annal:uri": "track15:association_0", 
-  "prov:qualifiedAssociation": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d0313cb9-e1c4-4bd0-be4a-7f76566b43f8#activity_0", 
-  "annal:id": "7f76566b43f8_association_0", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Association/7f76566b43f8_association_0",
   "@type": [
-    "prov:Association"
-  ], 
-  "annal:type": "prov:Association"
+    "prov:Association",
+    "annal:EntityData"
+  ],
+  "annal:id": "7f76566b43f8_association_0",
+  "annal:type": "prov:Association",
+  "annal:type_id": "Association",
+  "annal:uri": "track15:association_0",
+  "prov:agent": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker",
+  "prov:hadRole": "http://calma.linkedmusic.org/roles/feature_extraction_plugin",
+  "prov:qualifiedAssociation": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d0313cb9-e1c4-4bd0-be4a-7f76566b43f8#activity_0",
+  "rdfs:comment": "Resource track15:association_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d0313cb9-e1c4-4bd0-be4a-7f76566b43f8#association_0), id 7f76566b43f8_association_0",
+  "rdfs:label": "Resource track15:association_0",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d0313cb9-e1c4-4bd0-be4a-7f76566b43f8#association_0"
 }

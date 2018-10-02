@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:irregularity_k", 
-  "rdfs:comment": "Resource ns1:irregularity_k (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_k), id vamp_libxtract_irregularity_k", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_k", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:irregularity_k", 
-  "annal:id": "vamp_libxtract_irregularity_k", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_libxtract_irregularity_k",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_irregularity_k",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:irregularity_k",
+  "rdfs:comment": "Resource ns1:irregularity_k (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_k), id vamp_libxtract_irregularity_k",
+  "rdfs:label": "Resource ns1:irregularity_k",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#irregularity_k"
 }

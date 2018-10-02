@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:rolloff_output_rolloff", 
-  "rdfs:comment": "Resource ns1:rolloff_output_rolloff (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#rolloff_output_rolloff), id vamp_lib___lloff_output_rolloff", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#rolloff_output_rolloff", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:rolloff_output_rolloff", 
-  "annal:id": "vamp_lib___lloff_output_rolloff", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_lib___lloff_output_rolloff",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___lloff_output_rolloff",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:rolloff_output_rolloff",
+  "rdfs:comment": "Resource ns1:rolloff_output_rolloff (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#rolloff_output_rolloff), id vamp_lib___lloff_output_rolloff",
+  "rdfs:label": "Resource ns1:rolloff_output_rolloff",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#rolloff_output_rolloff"
 }

@@ -1,19 +1,26 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track11:transform_1_odd_even_ratio", 
-  "rdfs:comment": "Resource track11:transform_1_odd_even_ratio (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#transform_1_odd_even_ratio), id abc77cae___orm_1_odd_even_ratio", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#transform_1_odd_even_ratio", 
-  "annal:type_id": "Transform", 
-  "vamp:parameter_binding": "ub12bL45C28", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#odd_even_ratio_output_odd_even_ratio", 
-  "annal:uri": "track11:transform_1_odd_even_ratio", 
-  "vamp:step_size": "1024", 
-  "annal:id": "abc77cae___orm_1_odd_even_ratio", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#odd_even_ratio", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/abc77cae___orm_1_odd_even_ratio",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "abc77cae___orm_1_odd_even_ratio",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track11:transform_1_odd_even_ratio",
+  "rdfs:comment": "Resource track11:transform_1_odd_even_ratio (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#transform_1_odd_even_ratio), id abc77cae___orm_1_odd_even_ratio",
+  "rdfs:label": "Resource track11:transform_1_odd_even_ratio",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_bf2ee4b2-7856-4997-9b39-abc77caebe8e#transform_1_odd_even_ratio",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#odd_even_ratio_output_odd_even_ratio",
+  "vamp:parameter_binding": "ub12bL45C28",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#odd_even_ratio",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

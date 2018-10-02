@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns5:qm-mfcc_output_coefficients", 
-  "rdfs:comment": "Resource ns5:qm-mfcc_output_coefficients (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc_output_coefficients), id qm_vamp_____output_coefficients", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc_output_coefficients", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns5:qm-mfcc_output_coefficients", 
-  "annal:id": "qm_vamp_____output_coefficients", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/qm_vamp_____output_coefficients",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "qm_vamp_____output_coefficients",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns5:qm-mfcc_output_coefficients",
+  "rdfs:comment": "Resource ns5:qm-mfcc_output_coefficients (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc_output_coefficients), id qm_vamp_____output_coefficients",
+  "rdfs:label": "Resource ns5:qm-mfcc_output_coefficients",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-mfcc_output_coefficients"
 }

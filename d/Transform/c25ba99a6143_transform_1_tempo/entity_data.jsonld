@@ -1,19 +1,26 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track33:transform_1_tempo", 
-  "rdfs:comment": "Resource track33:transform_1_tempo (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5cc6cf5f-75e1-4c31-8427-c25ba99a6143#transform_1_tempo), id c25ba99a6143_transform_1_tempo", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5cc6cf5f-75e1-4c31-8427-c25ba99a6143#transform_1_tempo", 
-  "annal:type_id": "Transform", 
-  "vamp:parameter_binding": "ub34bL47C9", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_tempo", 
-  "annal:uri": "track33:transform_1_tempo", 
-  "vamp:step_size": "512", 
-  "annal:id": "c25ba99a6143_transform_1_tempo", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/c25ba99a6143_transform_1_tempo",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "c25ba99a6143_transform_1_tempo",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track33:transform_1_tempo",
+  "rdfs:comment": "Resource track33:transform_1_tempo (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5cc6cf5f-75e1-4c31-8427-c25ba99a6143#transform_1_tempo), id c25ba99a6143_transform_1_tempo",
+  "rdfs:label": "Resource track33:transform_1_tempo",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5cc6cf5f-75e1-4c31-8427-c25ba99a6143#transform_1_tempo",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_tempo",
+  "vamp:parameter_binding": "ub34bL47C9",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "512"
 }

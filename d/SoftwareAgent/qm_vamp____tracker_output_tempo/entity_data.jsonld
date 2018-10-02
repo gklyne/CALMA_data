@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns5:qm-tempotracker_output_tempo", 
-  "rdfs:comment": "Resource ns5:qm-tempotracker_output_tempo (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_tempo), id qm_vamp____tracker_output_tempo", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_tempo", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns5:qm-tempotracker_output_tempo", 
-  "annal:id": "qm_vamp____tracker_output_tempo", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/qm_vamp____tracker_output_tempo",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "qm_vamp____tracker_output_tempo",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns5:qm-tempotracker_output_tempo",
+  "rdfs:comment": "Resource ns5:qm-tempotracker_output_tempo (http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_tempo), id qm_vamp____tracker_output_tempo",
+  "rdfs:label": "Resource ns5:qm-tempotracker_output_tempo",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/qm-vamp-plugins#qm-tempotracker_output_tempo"
 }

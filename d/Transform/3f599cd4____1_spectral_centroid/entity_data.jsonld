@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track5:transform_1_spectral_centroid", 
-  "rdfs:comment": "Resource track5:transform_1_spectral_centroid (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5c475709-8da9-4af3-9b20-3f599cd4bd42#transform_1_spectral_centroid), id 3f599cd4____1_spectral_centroid", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5c475709-8da9-4af3-9b20-3f599cd4bd42#transform_1_spectral_centroid", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid_output_spectral_centroid", 
-  "annal:uri": "track5:transform_1_spectral_centroid", 
-  "vamp:step_size": "1024", 
-  "annal:id": "3f599cd4____1_spectral_centroid", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/3f599cd4____1_spectral_centroid",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "3f599cd4____1_spectral_centroid",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track5:transform_1_spectral_centroid",
+  "rdfs:comment": "Resource track5:transform_1_spectral_centroid (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5c475709-8da9-4af3-9b20-3f599cd4bd42#transform_1_spectral_centroid), id 3f599cd4____1_spectral_centroid",
+  "rdfs:label": "Resource track5:transform_1_spectral_centroid",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_5c475709-8da9-4af3-9b20-3f599cd4bd42#transform_1_spectral_centroid",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid_output_spectral_centroid",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

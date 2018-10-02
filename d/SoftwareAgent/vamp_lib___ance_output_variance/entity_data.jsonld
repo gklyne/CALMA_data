@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:variance_output_variance", 
-  "rdfs:comment": "Resource ns1:variance_output_variance (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#variance_output_variance), id vamp_lib___ance_output_variance", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#variance_output_variance", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:variance_output_variance", 
-  "annal:id": "vamp_lib___ance_output_variance", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_lib___ance_output_variance",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ance_output_variance",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:variance_output_variance",
+  "rdfs:comment": "Resource ns1:variance_output_variance (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#variance_output_variance), id vamp_lib___ance_output_variance",
+  "rdfs:label": "Resource ns1:variance_output_variance",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#variance_output_variance"
 }

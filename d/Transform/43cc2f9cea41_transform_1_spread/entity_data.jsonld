@@ -1,18 +1,25 @@
 {
-  "@id": "./", 
-  "rdfs:label": "Resource track18:transform_1_spread", 
-  "rdfs:comment": "Resource track18:transform_1_spread (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d94105e3-cbd4-43c4-99b9-43cc2f9cea41#transform_1_spread), id 43cc2f9cea41_transform_1_spread", 
-  "vamp:block_size": "1024", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d94105e3-cbd4-43c4-99b9-43cc2f9cea41#transform_1_spread", 
-  "annal:type_id": "Transform", 
-  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread_output_spread", 
-  "annal:uri": "track18:transform_1_spread", 
-  "vamp:step_size": "1024", 
-  "annal:id": "43cc2f9cea41_transform_1_spread", 
-  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Transform/43cc2f9cea41_transform_1_spread",
   "@type": [
-    "vamp:Transform"
-  ], 
-  "annal:type": "vamp:Transform", 
-  "vamp:sample_rate": "44100.0"
+    "vamp:Transform",
+    "annal:EntityData"
+  ],
+  "annal:id": "43cc2f9cea41_transform_1_spread",
+  "annal:type": "vamp:Transform",
+  "annal:type_id": "Transform",
+  "annal:uri": "track18:transform_1_spread",
+  "rdfs:comment": "Resource track18:transform_1_spread (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d94105e3-cbd4-43c4-99b9-43cc2f9cea41#transform_1_spread), id 43cc2f9cea41_transform_1_spread",
+  "rdfs:label": "Resource track18:transform_1_spread",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_d94105e3-cbd4-43c4-99b9-43cc2f9cea41#transform_1_spread",
+  "vamp:block_size": "1024",
+  "vamp:output": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread_output_spread",
+  "vamp:plugin": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spread",
+  "vamp:sample_rate": "44100.0",
+  "vamp:step_size": "1024"
 }

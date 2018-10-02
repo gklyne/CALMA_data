@@ -1,0 +1,20 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_type/Association",
+  "@type": [
+    "annal:Type"
+  ],
+  "annal:id": "Association",
+  "annal:type": "annal:Type",
+  "annal:type_id": "_type",
+  "annal:type_list": "Association_list",
+  "annal:type_view": "Association_view",
+  "annal:uri": "prov:Association",
+  "rdfs:comment": "Type prov:Association (http://www.w3.org/ns/prov#Association)",
+  "rdfs:label": "Type prov:Association"
+}

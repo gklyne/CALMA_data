@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spectral_centroid_output_spectral_centroid", 
-  "rdfs:comment": "Resource ns1:spectral_centroid_output_spectral_centroid (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid_output_spectral_centroid), id vamp_lib___ut_spectral_centroid", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid_output_spectral_centroid", 
-  "annal:type_id": "PluginOutput", 
-  "annal:uri": "ns1:spectral_centroid_output_spectral_centroid", 
-  "annal:id": "vamp_lib___ut_spectral_centroid", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "PluginOutput/vamp_lib___ut_spectral_centroid",
   "@type": [
-    "vamp:PluginOutput"
-  ], 
-  "annal:type": "vamp:PluginOutput"
+    "vamp:PluginOutput",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_lib___ut_spectral_centroid",
+  "annal:type": "vamp:PluginOutput",
+  "annal:type_id": "PluginOutput",
+  "annal:uri": "ns1:spectral_centroid_output_spectral_centroid",
+  "rdfs:comment": "Resource ns1:spectral_centroid_output_spectral_centroid (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid_output_spectral_centroid), id vamp_lib___ut_spectral_centroid",
+  "rdfs:label": "Resource ns1:spectral_centroid_output_spectral_centroid",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_centroid_output_spectral_centroid"
 }

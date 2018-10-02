@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spectral_slope", 
-  "rdfs:comment": "Resource ns1:spectral_slope (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope), id vamp_libxtract_spectral_slope", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope", 
-  "annal:type_id": "SoftwareAgent", 
-  "annal:uri": "ns1:spectral_slope", 
-  "annal:id": "vamp_libxtract_spectral_slope", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "SoftwareAgent/vamp_libxtract_spectral_slope",
   "@type": [
-    "prov:SoftwareAgent"
-  ], 
-  "annal:type": "prov:SoftwareAgent"
+    "prov:SoftwareAgent",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_spectral_slope",
+  "annal:type": "prov:SoftwareAgent",
+  "annal:type_id": "SoftwareAgent",
+  "annal:uri": "ns1:spectral_slope",
+  "rdfs:comment": "Resource ns1:spectral_slope (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope), id vamp_libxtract_spectral_slope",
+  "rdfs:label": "Resource ns1:spectral_slope",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_slope"
 }

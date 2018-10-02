@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/hadPlan_field",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:id": "hadPlan_field",
+  "annal:placeholder": "(hadPlan_field)",
+  "annal:property_uri": "prov:hadPlan",
+  "annal:tooltip": "Field hadPlan_field (prov:hadPlan, http://www.w3.org/ns/prov#qualifiedAssociation)",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# hadPlan\r\n\r\nField hadPlan_field (prov:hadPlan, http://www.w3.org/ns/prov#qualifiedAssociation)",
+  "rdfs:label": "hadPlan"
+}

@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/computed_by_field",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:id": "computed_by_field",
+  "annal:placeholder": "(computed_by_field)",
+  "annal:property_uri": "vamp:computed_by",
+  "annal:tooltip": "Field computed_by_field (vamp:computed_by, http://www.w3.org/ns/prov#wasGeneratedBy)",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# computed_by\r\n\r\nField computed_by_field (vamp:computed_by, http://www.w3.org/ns/prov#wasGeneratedBy)",
+  "rdfs:label": "computed_by"
+}

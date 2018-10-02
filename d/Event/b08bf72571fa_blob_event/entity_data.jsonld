@@ -1,16 +1,23 @@
 {
-  "rdfs:label": "Resource track32:blob_event", 
-  "rdfs:comment": "Resource track32:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#blob_event), id b08bf72571fa_blob_event", 
-  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#activity_0", 
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#blob_event", 
-  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#transform_1_kurtosis", 
-  "annal:type_id": "Event", 
-  "mo:time": "ub33bL30C13", 
-  "annal:uri": "track32:blob_event", 
-  "annal:id": "b08bf72571fa_blob_event", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Event/b08bf72571fa_blob_event",
   "@type": [
-    "event:Event"
-  ], 
-  "annal:type": "event:Event"
+    "event:Event",
+    "annal:EntityData"
+  ],
+  "annal:id": "b08bf72571fa_blob_event",
+  "annal:type": "event:Event",
+  "annal:type_id": "Event",
+  "annal:uri": "track32:blob_event",
+  "mo:time": "ub33bL30C13",
+  "prov:wasGeneratedBy": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#activity_0",
+  "rdfs:comment": "Resource track32:blob_event (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#blob_event), id b08bf72571fa_blob_event",
+  "rdfs:label": "Resource track32:blob_event",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#blob_event",
+  "vamp:computed_by": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_ab3f47cd-7458-4967-8555-b08bf72571fa#transform_1_kurtosis"
 }

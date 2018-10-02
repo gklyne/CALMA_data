@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/output_field",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:id": "output_field",
+  "annal:placeholder": "(output_field)",
+  "annal:property_uri": "vamp:output",
+  "annal:tooltip": "Field output_field (vamp:output, http://www.w3.org/1999/02/22-rdf-syntax-ns#type)",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# output\r\n\r\nField output_field (vamp:output, http://www.w3.org/1999/02/22-rdf-syntax-ns#type)",
+  "rdfs:label": "output"
+}

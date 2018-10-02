@@ -1,0 +1,25 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_field/block_size_field",
+  "@type": [
+    "annal:Field"
+  ],
+  "annal:default_value": "",
+  "annal:field_placement": "small:0,12",
+  "annal:field_render_type": "_enum_render_type/Text",
+  "annal:field_value_mode": "_enum_value_mode/Value_direct",
+  "annal:field_value_type": "annal:Text",
+  "annal:id": "block_size_field",
+  "annal:placeholder": "(block_size_field)",
+  "annal:property_uri": "vamp:block_size",
+  "annal:tooltip": "Field block_size_field (vamp:block_size, http://www.w3.org/1999/02/22-rdf-syntax-ns#type)",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "# block_size\r\n\r\nField block_size_field (vamp:block_size, http://www.w3.org/1999/02/22-rdf-syntax-ns#type)",
+  "rdfs:label": "block_size"
+}

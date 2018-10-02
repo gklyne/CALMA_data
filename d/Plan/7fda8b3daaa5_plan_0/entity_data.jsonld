@@ -1,28 +1,33 @@
 {
-  "rdfs:label": "Resource track36:plan_0",
-  "rdfs:comment": "Resource track36:plan_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_f8d61086-3956-4001-9e8d-7fda8b3daaa5#plan_0), id 7fda8b3daaa5_plan_0",
-  "prov:used": "",
-  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_f8d61086-3956-4001-9e8d-7fda8b3daaa5#plan_0",
-  "annal:type_id": "Plan",
-  "prov:hadRole": "",
-  "calma:command_seq": "ub37bL37C23",
-  "annal:display_type": "List",
-  "calma:command": "",
-  "annal:list_entity_selector": "ALL",
-  "annal:default_type": "Default_type",
-  "annal:user_permissions": [],
-  "annal:record_type": "",
-  "@id": "./",
-  "annal:default_view": "Default_view",
-  "prov:wasAssociatedWith": "",
-  "annal:user_uri": "",
-  "annal:list_fields": [],
-  "annal:uri": "track36:plan_0",
-  "annal:url": "/annalist/c/CALMA_data/d/Plan/7fda8b3daaa5_plan_0/",
-  "annal:id": "7fda8b3daaa5_plan_0",
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plan/7fda8b3daaa5_plan_0",
   "@type": [
     "prov:Plan",
     "annal:EntityData"
   ],
-  "annal:type": "annal:EntityData"
+  "annal:default_type": "Default_type",
+  "annal:default_view": "Default_view",
+  "annal:display_type": "List",
+  "annal:id": "7fda8b3daaa5_plan_0",
+  "annal:list_entity_selector": "ALL",
+  "annal:list_fields": [],
+  "annal:record_type": "",
+  "annal:type": "prov:Plan",
+  "annal:type_id": "Plan",
+  "annal:uri": "track36:plan_0",
+  "annal:user_permissions": [],
+  "annal:user_uri": "",
+  "calma:command": "",
+  "calma:command_seq": "ub37bL37C23",
+  "prov:hadRole": "",
+  "prov:used": "",
+  "prov:wasAssociatedWith": "",
+  "rdfs:comment": "Resource track36:plan_0 (http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_f8d61086-3956-4001-9e8d-7fda8b3daaa5#plan_0), id 7fda8b3daaa5_plan_0",
+  "rdfs:label": "Resource track36:plan_0",
+  "rdfs:seeAlso": "http://calma.linkedmusic.org/data/track_00001237-2bbe-402f-8586-f5ddd3f22800/analysis_f8d61086-3956-4001-9e8d-7fda8b3daaa5#plan_0"
 }

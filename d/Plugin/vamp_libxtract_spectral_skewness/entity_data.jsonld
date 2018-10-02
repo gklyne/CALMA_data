@@ -1,13 +1,20 @@
 {
-  "rdfs:label": "Resource ns1:spectral_skewness", 
-  "rdfs:comment": "Resource ns1:spectral_skewness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_skewness), id vamp_libxtract_spectral_skewness", 
-  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_skewness", 
-  "annal:type_id": "Plugin", 
-  "annal:uri": "ns1:spectral_skewness", 
-  "annal:id": "vamp_libxtract_spectral_skewness", 
-  "@id": "./", 
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "Plugin/vamp_libxtract_spectral_skewness",
   "@type": [
-    "vamp:Plugin"
-  ], 
-  "annal:type": "vamp:Plugin"
+    "vamp:Plugin",
+    "annal:EntityData"
+  ],
+  "annal:id": "vamp_libxtract_spectral_skewness",
+  "annal:type": "vamp:Plugin",
+  "annal:type_id": "Plugin",
+  "annal:uri": "ns1:spectral_skewness",
+  "rdfs:comment": "Resource ns1:spectral_skewness (http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_skewness), id vamp_libxtract_spectral_skewness",
+  "rdfs:label": "Resource ns1:spectral_skewness",
+  "rdfs:seeAlso": "http://vamp-plugins.org/rdf/plugins/vamp-libxtract#spectral_skewness"
 }

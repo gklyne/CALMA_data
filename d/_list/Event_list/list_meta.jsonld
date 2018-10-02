@@ -1,0 +1,31 @@
+{
+  "@context": [
+    {
+      "@base": "../../"
+    },
+    "../../coll_context.jsonld"
+  ],
+  "@id": "_list/Event_list",
+  "@type": [
+    "annal:List"
+  ],
+  "annal:default_type": "Event",
+  "annal:default_view": "Event_view",
+  "annal:display_type": "_enum_list_type/List",
+  "annal:id": "Event_list",
+  "annal:list_entity_selector": "'event:Event' in [@type]",
+  "annal:list_fields": [
+    {
+      "annal:field_id": "Entity_id",
+      "annal:field_placement": "small:0,3"
+    },
+    {
+      "annal:field_id": "Entity_label",
+      "annal:field_placement": "small:3,9"
+    }
+  ],
+  "annal:type": "annal:List",
+  "annal:type_id": "_list",
+  "rdfs:comment": "List of Event entities",
+  "rdfs:label": "List Event"
+}
